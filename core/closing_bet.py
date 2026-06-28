@@ -5,12 +5,13 @@ Reference: bnsMfTHITYs (호두 채널 종가베팅 시스템)
 참고: stock_automation_7steps.md (Step 3~4)
 """
 
-import random
 from typing import List, Optional
 from core.signal_types import (
     PortfolioItem, SignalResult, SignalGrade, ActionType,
     AnalysisReport
 )
+from core.kis_api import KISDataProvider
+
 
 class ClosingBetEngine:
     """종가베팅 분석 엔진 — 호두 채널 S/A/B/C/D 등급"""
@@ -19,8 +20,8 @@ class ClosingBetEngine:
     STOP_LOSS_PCT = -0.05
     VOLUME_SURGE_THRESHOLD = 1.5
 
-    def __init__(self):
-        self._mock_prices = {}
+    def __init__(self, data_provider: Optional[KISDataProvider] = None):
+        self._provider = data_provider or KISDataProvider()
 
     def analyze_portfolio(self, items):
         """전체 분석 → SignalResult 리스트 (등급순)"""
@@ -29,20 +30,46 @@ class ClosingBetEngine:
         results.sort(key=lambda r: (order.get(r.grade.value, 99), -r.score))
         return results
 
+    def generate_report(self, items) -> AnalysisReport:
+        """전체 분석 리포트 생성"""
+        signals = self.analyze_portfolio(items)
+        buyable = [s for s in signals if s.grade.buyable]
+        dist = {}
+        for s in signals:
+            dist[s.grade.value] = dist.get(s.grade.value, 0) + 1
+        total_eval = sum(i.eval_amount for i in items)
+        total_buy  = sum(i.buy_amount  for i in items)
+        report = AnalysisReport(signals=signals)
+        report.summary = {"total": len(signals), "buyable": len(buyable), "distribution": dist}
+        report.portfolio_stats = {
+            "total_eval": total_eval,
+            "total_buy":  total_buy,
+            "total_pnl":  total_eval - total_buy,
+        }
+        return report
+
+    def is_mock(self) -> bool:
+        return self._provider.is_mock()
+
     def _analyze_single(self, item):
-        mock = self._mock(item)
-        grade, score, reasons = self._grade(item, mock)
+        data = self._provider.get_stock_data(item.stock_name, item.current_price)
+        m = {
+            "vol":  data.volume_ratio,
+            "ma":   data.ma5_position,
+            "inst": data.inst_net_buy,
+            "mom":  data.momentum,
+        }
+        grade, score, reasons = self._grade(item, m)
         return SignalResult(
             stock_name=item.stock_name, grade=grade, action=self._action(grade),
             score=score, reason=" | ".join(reasons[:2]),
-            entry_price=item.current_price, confidence=self._conf(grade, mock),
+            entry_price=item.current_price, confidence=self._conf(grade, m),
             details={"return_pct": round(item.return_pct, 1),
-                     "volume": mock["vol"], "ma": mock["ma"],
-                     "inst": mock["inst"], "mom": round(mock["mom"], 1)}
+                     "volume": m["vol"], "ma": m["ma"],
+                     "inst": m["inst"], "mom": round(m["mom"], 1)}
         )
 
     def _grade(self, item, m):
-        """S/A/B/C/D 등급 판정 (호두 채널 기준)"""
         r, s = [], 50.0
         if m["ma"] == "above": s += 15; r.append("5일선 위")
         else: s -= 15; r.append("5일선 이탈")
@@ -66,15 +93,3 @@ class ClosingBetEngine:
     def _conf(self, g, m):
         base = {"S": 0.85, "A": 0.70, "B": 0.50, "C": 0.30, "D": 0.15}
         return min(1.0, base.get(g.value, 0.5) + m["mom"] * 0.1)
-
-    def _mock(self, item):
-        n = item.stock_name
-        if n not in self._mock_prices:
-            r = random.Random(hash(n) % 1000)
-            self._mock_prices[n] = dict(
-                vol=round(0.5+r.random()*2.5, 2),
-                ma=r.choice(["above","above","below","cross"]),
-                inst=round(-0.5+r.random()*1.2, 2),
-                mom=round(-0.3+r.random()*1.3, 2))
-        return self._mock_prices[n]
-
