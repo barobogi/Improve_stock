@@ -1,11 +1,209 @@
-<!DOCTYPE html> 
-<html lang="ko"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Improve_stock SIM</title> 
-</head> 
-<body> 
-h1 
-h2 
-script
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Improve_stock — 종가베팅 시그널</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; background: #F3F4F6; }
+.grade-S { background: #FEF3C7; color: #92400E; border: 1px solid #F59E0B; }
+.grade-A { background: #D1FAE5; color: #065F46; border: 1px solid #10B981; }
+.grade-B { background: #DBEAFE; color: #1E40AF; border: 1px solid #3B82F6; }
+.grade-C { background: #F3F4F6; color: #6B7280; border: 1px solid #D1D5DB; }
+.grade-D { background: #FEE2E2; color: #991B1B; border: 1px solid #EF4444; }
+.profit { color: #EF4444; font-weight: 600; }
+.loss   { color: #2563EB; font-weight: 600; }
+th { background: #F9FAFB; font-weight: 600; font-size: 12px; position: sticky; top: 0; z-index: 1; }
+td, th { padding: 8px 10px; border-bottom: 1px solid #E5E7EB; font-size: 13px; }
+.scroll-table { max-height: 480px; overflow-y: auto; border: 1px solid #E5E7EB; border-radius: 8px; }
+.tab-active   { color: #5B8DEE; border-bottom: 2px solid #5B8DEE; font-weight: 600; }
+.tab-inactive { color: #9CA3AF; }
+</style>
+</head>
+<body>
+
+<!-- 헤더 -->
+<div class="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between sticky top-0 z-10 shadow-sm">
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-bold text-gray-800">📈 Improve_stock</span>
+    <span id="modeTag" class="text-xs px-2 py-0.5 rounded-full bg-yellow-100 text-yellow-800 border border-yellow-300">🔶 시뮬레이션</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <span id="genTime" class="text-xs text-gray-400"></span>
+    <button onclick="loadData()" class="text-xs bg-blue-500 text-white px-3 py-1.5 rounded-lg hover:bg-blue-600">새로고침</button>
+  </div>
+</div>
+
+<!-- 탭 -->
+<div class="bg-white border-b border-gray-200 px-4 flex gap-6">
+  <button class="py-3 text-sm tab-active"   onclick="showTab('signals',   this)">📊 시그널</button>
+  <button class="py-3 text-sm tab-inactive" onclick="showTab('vcp',       this)">🔥 VCP</button>
+  <button class="py-3 text-sm tab-inactive" onclick="showTab('portfolio', this)">💼 포트폴리오</button>
+</div>
+
+<div class="max-w-5xl mx-auto p-4">
+
+  <!-- 요약 카드 -->
+  <div id="summaryCards" class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4"></div>
+
+  <!-- 시그널 탭 -->
+  <div id="tab-signals">
+    <div class="flex gap-2 mb-3 flex-wrap">
+      <button onclick="filterGrade('ALL')" id="f-ALL" class="px-3 py-1 text-xs rounded-full bg-gray-800 text-white ring-2 ring-gray-400">전체</button>
+      <button onclick="filterGrade('S')"   id="f-S"   class="px-3 py-1 text-xs rounded-full grade-S">🔥 S</button>
+      <button onclick="filterGrade('A')"   id="f-A"   class="px-3 py-1 text-xs rounded-full grade-A">✅ A</button>
+      <button onclick="filterGrade('B')"   id="f-B"   class="px-3 py-1 text-xs rounded-full grade-B">👀 B</button>
+      <button onclick="filterGrade('C')"   id="f-C"   class="px-3 py-1 text-xs rounded-full grade-C">⏸ C</button>
+      <button onclick="filterGrade('D')"   id="f-D"   class="px-3 py-1 text-xs rounded-full grade-D">❌ D</button>
+    </div>
+    <div class="scroll-table bg-white">
+      <table id="signalTable">
+        <thead><tr>
+          <th>등급</th><th>종목</th><th>점수</th><th>액션</th><th>사유</th><th>수익률</th><th>신뢰도</th>
+        </tr></thead>
+        <tbody id="signalBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- VCP 탭 -->
+  <div id="tab-vcp" class="hidden">
+    <div class="scroll-table bg-white">
+      <table>
+        <thead><tr>
+          <th>종목</th><th>수렴</th><th>축소율</th><th>거래량</th><th>돌파임박</th><th>점수</th><th>설명</th>
+        </tr></thead>
+        <tbody id="vcpBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 포트폴리오 탭 -->
+  <div id="tab-portfolio" class="hidden">
+    <div id="portfolioStats" class="grid grid-cols-1 md:grid-cols-3 gap-3"></div>
+  </div>
+
+</div>
+
+<!-- 에러 배너 -->
+<div id="errorBanner" class="hidden fixed bottom-4 left-4 right-4 bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm shadow-lg"></div>
+
+<script>
+let allSignals = [];
+let currentFilter = 'ALL';
+
+const ACTION_LABEL = { BUY: '매수검토', WATCH: '관망', HOLD: '보유', SKIP: '제외' };
+const ACTION_COLOR = { BUY: 'profit', WATCH: 'text-blue-600', HOLD: 'text-gray-500', SKIP: 'text-gray-400' };
+
+async function loadData() {
+  try {
+    const res = await fetch('../output/latest.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    renderAll(data);
+    document.getElementById('errorBanner').classList.add('hidden');
+  } catch (e) {
+    showError('데이터 로드 실패: ' + e.message + ' — run_all.py를 먼저 실행하세요');
+  }
+}
+
+function renderAll(data) {
+  document.getElementById('genTime').textContent = data.generated_at || '';
+
+  const cb  = data.closing_bet     || {};
+  const vcp = data.vcp_scanner     || {};
+  const ps  = data.portfolio_stats || {};
+  const pnl = ps.total_pnl || 0;
+  const pnlPct = ps.total_invested ? (pnl / ps.total_invested * 100).toFixed(1) : 0;
+
+  document.getElementById('summaryCards').innerHTML = `
+    <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+      <p class="text-xs text-gray-400 mb-1">매수검토 (S/A)</p>
+      <p class="text-2xl font-bold text-orange-500">${cb.buyable_signals || 0}개</p>
+      <p class="text-xs text-gray-400">전체 ${cb.total_analyzed || 0}종목 분석</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+      <p class="text-xs text-gray-400 mb-1">VCP 돌파임박</p>
+      <p class="text-2xl font-bold text-red-500">${vcp.total_detected || 0}개</p>
+      <p class="text-xs text-gray-400">패턴 감지</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+      <p class="text-xs text-gray-400 mb-1">총 평가금액</p>
+      <p class="text-xl font-bold text-gray-800">₩${fmtNum(ps.total_portfolio)}</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+      <p class="text-xs text-gray-400 mb-1">총 손익</p>
+      <p class="text-xl font-bold ${pnl >= 0 ? 'profit' : 'loss'}">${pnl >= 0 ? '+' : ''}₩${fmtNum(pnl)}</p>
+      <p class="text-xs ${pnl >= 0 ? 'text-red-400' : 'text-blue-400'}">${pnl >= 0 ? '+' : ''}${pnlPct}%</p>
+    </div>`;
+
+  allSignals = cb.signals || [];
+  renderSignals();
+
+  const vcpRows = (vcp.patterns || []).map(v => `
+    <tr class="${v.breakout_imminent ? 'bg-orange-50' : ''}">
+      <td class="font-medium">${v.stock}</td>
+      <td class="text-center">${v.contraction_count}차</td>
+      <td class="text-center">${v.contraction_pct}%</td>
+      <td class="text-center">${v.volume_trend === 'declining' ? '📉 감소' : '→ 안정'}</td>
+      <td class="text-center">${v.breakout_imminent ? '🔥 임박' : '-'}</td>
+      <td class="text-center font-bold">${v.score}</td>
+      <td class="text-xs text-gray-500">${v.description}</td>
+    </tr>`).join('');
+  document.getElementById('vcpBody').innerHTML = vcpRows || '<tr><td colspan="7" class="text-center text-gray-400 py-8">VCP 패턴 없음</td></tr>';
+}
+
+function renderSignals() {
+  const filtered = currentFilter === 'ALL' ? allSignals : allSignals.filter(s => s.grade === currentFilter);
+  const rows = filtered.map(s => {
+    const ret = s.details?.return_pct ?? 0;
+    return `<tr>
+      <td><span class="px-2 py-0.5 rounded text-xs font-bold grade-${s.grade}">${s.grade_display || s.grade}</span></td>
+      <td class="font-medium max-w-36 truncate" title="${s.stock}">${s.stock}</td>
+      <td class="text-center font-bold ${s.score >= 80 ? 'text-orange-500' : ''}">${s.score}</td>
+      <td class="${ACTION_COLOR[s.action] || ''}">${ACTION_LABEL[s.action] || s.action}</td>
+      <td class="text-xs text-gray-500 max-w-44 truncate" title="${s.reason}">${s.reason}</td>
+      <td class="${ret >= 0 ? 'profit' : 'loss'}">${ret >= 0 ? '+' : ''}${ret}%</td>
+      <td class="text-center text-xs text-gray-400">${Math.round((s.consistency || 0) * 100)}%</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('signalBody').innerHTML = rows || '<tr><td colspan="7" class="text-center text-gray-400 py-8">해당 등급 없음</td></tr>';
+}
+
+function filterGrade(grade) {
+  currentFilter = grade;
+  renderSignals();
+  document.querySelectorAll('[id^="f-"]').forEach(b => {
+    const active = b.id === 'f-' + grade;
+    b.classList.toggle('ring-2', active);
+    b.classList.toggle('ring-gray-400', active);
+  });
+}
+
+function showTab(name, el) {
+  ['signals', 'vcp', 'portfolio'].forEach(t =>
+    document.getElementById('tab-' + t).classList.toggle('hidden', t !== name));
+  document.querySelectorAll('.tab-active, .tab-inactive').forEach(b =>
+    b.className = b.className.replace('tab-active', 'tab-inactive'));
+  el.className = el.className.replace('tab-inactive', 'tab-active');
+}
+
+function fmtNum(n) {
+  if (!n) return '0';
+  const abs = Math.abs(n);
+  if (abs >= 1e8) return (n / 1e8).toFixed(1) + '억';
+  if (abs >= 1e4) return (n / 1e4).toFixed(0) + '만';
+  return Math.round(n).toLocaleString();
+}
+
+function showError(msg) {
+  const el = document.getElementById('errorBanner');
+  el.textContent = msg;
+  el.classList.remove('hidden');
+}
+
+loadData();
+</script>
+</body>
+</html>
