@@ -1,242 +1,54 @@
 {
-  "SOL 팔란티어미국채커버드콜혼합": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "SOL 팔란티어커버드콜OTM채권혼합": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "삼성전자": {
-    "ticker": "005930.KS",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "ACE 미국AI테크핵심산업액티브": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "SOL 200타겟위클리커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 미국우주항공": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "TIGER 현대차그룹플러스": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 코스닥150레버리지": {
-    "ticker": "233740.KS",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 테슬라커버드콜채권혼합액티브": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 200타겟위클리커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "앰프리어스 테크놀로지스": {
-    "ticker": "AMPX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "TRD2XLG APLD ETF": {
-    "ticker": "APLDX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "TRADR 2X LNG ETF": {
-    "ticker": "LNGG",
-    "market": "NYSE",
-    "type": "해외증권"
-  },
-  "AST 스페이스모바일": {
-    "ticker": "ASTS",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "TRDR 2X ASTS ETF": {
-    "ticker": "ASTU",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "BTQ 테크놀로지스": {
-    "ticker": "BTTX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "Leverage Shares 2X Long CBRS DLY ETF": {
-    "ticker": "CBRSX",
-    "market": "TODO",
-    "type": "해외증권"
-  },
-  "셀레스티카": {
-    "ticker": "CLS",
-    "market": "NYSE",
-    "type": "해외증권"
-  },
-  "TRDR CLS DLY ETF": {
-    "ticker": "CLSX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "RNDHL MEMRY ETF": {
-    "ticker": "MEMY",
-    "market": "TODO",
-    "type": "해외증권"
-  },
-  "아이렌": {
-    "ticker": "IREN",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "실스크": {
-    "ticker": "SLRX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "엔비디아": {
-    "ticker": "NVDA",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "파가야 테크놀로지스": {
-    "ticker": "PGY",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "RNDHLL INVTN ETF": {
-    "ticker": "NVDX",
-    "market": "TODO",
-    "type": "해외증권"
-  },
-  "퀀텀스케이프": {
-    "ticker": "QS",
-    "market": "NYSE",
-    "type": "해외증권"
-  },
-  "DFC DLY RKLB ETF": {
-    "ticker": "RKLBX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "Schwab 미국 배당주 ETF": {
-    "ticker": "SCHD",
-    "market": "NYSE",
-    "type": "해외증권"
-  },
-  "서프 에어 모빌리티": {
-    "ticker": "SRFM",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "X-에너지": {
-    "ticker": "X-ENGY",
-    "market": "TODO",
-    "type": "해외증권"
-  },
-  "삼성미국S&P500인덱스증권자투자H(주)-Ce": {
-    "ticker": null,
-    "market": "SKIP",
-    "type": "수익증권"
-  },
-  "TRDR 2X CRDO ETF": {
-    "ticker": "CRDX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "TT DF 2XIREN ETF": {
-    "ticker": "IREX",
-    "market": "NASDAQ",
-    "type": "해외증권"
-  },
-  "PLUS 자사주매입고배당주": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 미국나스닥100": {
-    "ticker": "379800.KS",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "TIGER 미국테크TOP10타겟커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "RISE 200위클리커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "ACE 미국빅테크7+데일리타겟커버드콜(합성)": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "TIGER 미국S&P500타겟데일리커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 미국나스닥100데일리커버드콜OTM": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 금융고배당TOP10타겟위클리커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "삼성신종종류형MMF제4호-CP": {
-    "ticker": null,
-    "market": "SKIP",
-    "type": "수익증권"
-  },
-  "KODEX 미국S&P500": {
-    "ticker": "379810.KS",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 미국배당커버드콜액티브": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "RISE 글로벌자산배분액티브": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "KODEX 금융고배당TOP10타겟커버드콜": {
-    "ticker": "TODO",
-    "market": "KRX",
-    "type": "주식"
-  },
-  "현금성자산(삼성증권)": {
-    "ticker": null,
-    "market": "SKIP",
-    "type": "수익증권"
-  },
-  "삼성증권 디폴트옵션 안정자산형": {
-    "ticker": null,
-    "market": "SKIP",
-    "type": "수익증권"
-  }
+  "삼성전자": {"ticker": "005930.KS", "market": "KRX", "type": "주식"},
+  "KODEX 코스닥150레버리지": {"ticker": "233740.KS", "market": "KRX", "type": "주식"},
+  "KODEX 미국나스닥100": {"ticker": "379800.KS", "market": "KRX", "type": "주식"},
+  "KODEX 미국S&P500": {"ticker": "379810.KS", "market": "KRX", "type": "주식"},
+
+  "SOL 팔란티어미국채커버드콜혼합": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "SOL 팔란티어커버드콜OTM채권혼합": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "SOL 200타겟위클리커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "ACE 미국AI테크핵심산업액티브": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 미국우주항공": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "TIGER 현대차그룹플러스": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 테슬라커버드콜채권혼합액티브": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 200타겟위클리커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "PLUS 자사주매입고배당주": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "TIGER 미국테크TOP10타겟커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "RISE 200위클리커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "ACE 미국빅테크7+데일리타겟커버드콜(합성)": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "TIGER 미국S&P500타겟데일리커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 미국나스닥100데일리커버드콜OTM": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 금융고배당TOP10타겟위클리커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 미국배당커버드콜액티브": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "RISE 글로벌자산배분액티브": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+  "KODEX 금융고배당TOP10타겟커버드콜": {"ticker": "TODO", "market": "KRX", "type": "주식", "note": "6자리 종목코드 확인 필요"},
+
+  "AST 스페이스모바일": {"ticker": "ASTS", "market": "NASDAQ", "type": "해외증권"},
+  "셀레스티카": {"ticker": "CLS", "market": "NYSE", "type": "해외증권"},
+  "아이렌": {"ticker": "IREN", "market": "NASDAQ", "type": "해외증권"},
+  "엔비디아": {"ticker": "NVDA", "market": "NASDAQ", "type": "해외증권"},
+  "파가야 테크놀로지스": {"ticker": "PGY", "market": "NASDAQ", "type": "해외증권"},
+  "퀀텀스케이프": {"ticker": "QS", "market": "NYSE", "type": "해외증권"},
+  "서프 에어 모빌리티": {"ticker": "SRFM", "market": "NASDAQ", "type": "해외증권"},
+  "앰프리어스 테크놀로지스": {"ticker": "AMPX", "market": "NASDAQ", "type": "해외증권"},
+  "BTQ 테크놀로지스": {"ticker": "BTTX", "market": "NASDAQ", "type": "해외증권"},
+  "실스크": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "X-에너지": {"ticker": "TODO", "market": "TODO", "type": "해외증권", "note": "미상장 또는 SPAC 확인"},
+  "Schwab 미국 배당주 ETF": {"ticker": "SCHD", "market": "NYSE", "type": "해외증권"},
+
+  "TRDR 2X ASTS ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "TRADR 2X LNG ETF": {"ticker": "TODO", "market": "NYSE", "type": "해외증권", "note": "티커 확인 필요"},
+  "TRDR CLS DLY ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "TRDR 2X CRDO ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "TT DF 2XIREN ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "TRD2XLG APLD ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "DFC DLY RKLB ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "Leverage Shares 2X Long CBRS DLY ETF": {"ticker": "TODO", "market": "TODO", "type": "해외증권", "note": "티커 확인 필요"},
+  "RNDHL MEMRY ETF": {"ticker": "TODO", "market": "NASDAQ", "type": "해외증권", "note": "티커 확인 필요"},
+  "RNDHLL INVTN ETF": {"ticker": "TODO", "market": "TODO", "type": "해외증권", "note": "티커 확인 필요"},
+
+  "삼성미국S&P500인덱스증권자투자H(주)-Ce": {"ticker": null, "market": "SKIP", "type": "수익증권"},
+  "삼성신종종류형MMF제4호-CP": {"ticker": null, "market": "SKIP", "type": "수익증권"},
+  "현금성자산(삼성증권)": {"ticker": null, "market": "SKIP", "type": "수익증권"},
+  "삼성증권 디폴트옵션 안정자산형": {"ticker": null, "market": "SKIP", "type": "수익증권"}
 }
