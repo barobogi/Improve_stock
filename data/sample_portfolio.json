@@ -1,0 +1,966 @@
+{
+  "memo": "대시보드 포트폴리오 샘플 (2026-06-19 12:50 기준)",
+  "source": "barobogi.github.io/stock_dashboard — DEFAULT_STOCKS",
+  "total_items": 99,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "일반계좌1",
+      "num": "70714",
+      "type": "general",
+      "desc": "미국주식+한국주식"
+    },
+    {
+      "id": 2,
+      "name": "일반계좌2",
+      "num": "70871",
+      "type": "general",
+      "desc": "미국주식+한국주식"
+    },
+    {
+      "id": 3,
+      "name": "ISA",
+      "num": "71297",
+      "type": "isa",
+      "desc": "ISA 계좌"
+    },
+    {
+      "id": 4,
+      "name": "IRP",
+      "num": "70714",
+      "type": "irp",
+      "desc": "IRP (퇴직연금)"
+    },
+    {
+      "id": 5,
+      "name": "연금저축1",
+      "num": "71462",
+      "type": "pension",
+      "desc": "연금저축"
+    },
+    {
+      "id": 6,
+      "name": "연금저축2",
+      "num": "71615",
+      "type": "pension",
+      "desc": "연금저축"
+    },
+    {
+      "id": 7,
+      "name": "연금저축3",
+      "num": "70868",
+      "type": "pension",
+      "desc": "연금저축"
+    },
+    {
+      "id": 8,
+      "name": "일반계좌3",
+      "num": "71417",
+      "type": "general",
+      "desc": "해외주식"
+    },
+    {
+      "id": 9,
+      "name": "일반계좌4",
+      "num": "71661",
+      "type": "general",
+      "desc": "일반계좌"
+    }
+  ],
+  "stocks": [
+    {
+      "accountId": 1,
+      "name": "SOL 팔란티어미국채커버드콜혼합",
+      "qty": 5,
+      "curPrice": 9945,
+      "evalAmount": 49725,
+      "type": "주식",
+      "buyAmount": 56975
+    },
+    {
+      "accountId": 1,
+      "name": "SOL 팔란티어커버드콜OTM채권혼합",
+      "qty": 159,
+      "curPrice": 8410,
+      "evalAmount": 1337190,
+      "type": "주식",
+      "buyAmount": 1437837
+    },
+    {
+      "accountId": 1,
+      "name": "삼성전자",
+      "qty": 118,
+      "curPrice": 362500,
+      "evalAmount": 42775000,
+      "type": "주식",
+      "buyAmount": 16842022
+    },
+    {
+      "accountId": 1,
+      "name": "ACE 미국AI테크핵심산업액티브",
+      "qty": 26,
+      "curPrice": 10200,
+      "evalAmount": 265200,
+      "type": "주식",
+      "buyAmount": 224276
+    },
+    {
+      "accountId": 1,
+      "name": "SOL 200타겟위클리커버드콜",
+      "qty": 82,
+      "curPrice": 16485,
+      "evalAmount": 1351770,
+      "type": "주식",
+      "buyAmount": 963336
+    },
+    {
+      "accountId": 1,
+      "name": "KODEX 미국우주항공",
+      "qty": 158,
+      "curPrice": 11965,
+      "evalAmount": 1890470,
+      "type": "주식",
+      "buyAmount": 1877988
+    },
+    {
+      "accountId": 1,
+      "name": "TIGER 현대차그룹플러스",
+      "qty": 36,
+      "curPrice": 64545,
+      "evalAmount": 2323620,
+      "type": "주식",
+      "buyAmount": 2234124
+    },
+    {
+      "accountId": 1,
+      "name": "KODEX 코스닥150레버리지",
+      "qty": 322,
+      "curPrice": 12430,
+      "evalAmount": 4002460,
+      "type": "주식",
+      "buyAmount": 3414810
+    },
+    {
+      "accountId": 1,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 29,
+      "curPrice": 8530,
+      "evalAmount": 247370,
+      "type": "주식",
+      "buyAmount": 249574
+    },
+    {
+      "accountId": 1,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 842,
+      "curPrice": 28270,
+      "evalAmount": 23803340,
+      "type": "주식",
+      "buyAmount": 16301120
+    },
+    {
+      "accountId": 1,
+      "name": "앰프리어스 테크놀로지스",
+      "qty": 81,
+      "curPrice": 16170,
+      "evalAmount": 1981420,
+      "type": "해외증권",
+      "buyAmount": 1913369
+    },
+    {
+      "accountId": 1,
+      "name": "TRD2XLG APLD ETF",
+      "qty": 1,
+      "curPrice": 32430,
+      "evalAmount": 49060,
+      "type": "해외증권",
+      "buyAmount": 40209
+    },
+    {
+      "accountId": 1,
+      "name": "TRADR 2X LNG ETF",
+      "qty": 10,
+      "curPrice": 33950,
+      "evalAmount": 513595,
+      "type": "해외증권",
+      "buyAmount": 757101
+    },
+    {
+      "accountId": 1,
+      "name": "AST 스페이스모바일",
+      "qty": 20,
+      "curPrice": 80660,
+      "evalAmount": 2440448,
+      "type": "해외증권",
+      "buyAmount": 1927270
+    },
+    {
+      "accountId": 1,
+      "name": "TRDR 2X ASTS ETF",
+      "qty": 24,
+      "curPrice": 24265,
+      "evalAmount": 880994,
+      "type": "해외증권",
+      "buyAmount": 1040318
+    },
+    {
+      "accountId": 1,
+      "name": "BTQ 테크놀로지스",
+      "qty": 12,
+      "curPrice": 5675,
+      "evalAmount": 103021,
+      "type": "해외증권",
+      "buyAmount": 50710
+    },
+    {
+      "accountId": 1,
+      "name": "Leverage Shares 2X Long CBRS DLY ETF",
+      "qty": 400,
+      "curPrice": 729,
+      "evalAmount": 4411324,
+      "type": "해외증권",
+      "buyAmount": 3869643
+    },
+    {
+      "accountId": 1,
+      "name": "셀레스티카",
+      "qty": 5,
+      "curPrice": 372550,
+      "evalAmount": 2817968,
+      "type": "해외증권",
+      "buyAmount": 1299495
+    },
+    {
+      "accountId": 1,
+      "name": "TRDR CLS DLY ETF",
+      "qty": 270,
+      "curPrice": 1998,
+      "evalAmount": 8160950,
+      "type": "해외증권",
+      "buyAmount": 9020115
+    },
+    {
+      "accountId": 1,
+      "name": "RNDHL MEMRY ETF",
+      "qty": 10,
+      "curPrice": 7671,
+      "evalAmount": 1160468,
+      "type": "해외증권",
+      "buyAmount": 812762
+    },
+    {
+      "accountId": 1,
+      "name": "아이렌",
+      "qty": 32,
+      "curPrice": 59960,
+      "evalAmount": 2902639,
+      "type": "해외증권",
+      "buyAmount": 2302487
+    },
+    {
+      "accountId": 1,
+      "name": "실스크",
+      "qty": 1,
+      "curPrice": 3120,
+      "evalAmount": 4719,
+      "type": "해외증권",
+      "buyAmount": 5073
+    },
+    {
+      "accountId": 1,
+      "name": "엔비디아",
+      "qty": 1,
+      "curPrice": 210690,
+      "evalAmount": 195786,
+      "type": "해외증권",
+      "buyAmount": 173908
+    },
+    {
+      "accountId": 1,
+      "name": "파가야 테크놀로지스",
+      "qty": 2,
+      "curPrice": 15620,
+      "evalAmount": 47259,
+      "type": "해외증권",
+      "buyAmount": 33253
+    },
+    {
+      "accountId": 1,
+      "name": "RNDHLL INVTN ETF",
+      "qty": 19,
+      "curPrice": 31510,
+      "evalAmount": 905698,
+      "type": "해외증권",
+      "buyAmount": 895976
+    },
+    {
+      "accountId": 1,
+      "name": "퀀텀스케이프",
+      "qty": 6,
+      "curPrice": 8040,
+      "evalAmount": 72977,
+      "type": "해외증권",
+      "buyAmount": 87737
+    },
+    {
+      "accountId": 1,
+      "name": "DFC DLY RKLB ETF",
+      "qty": 30,
+      "curPrice": 52450,
+      "evalAmount": 2380390,
+      "type": "해외증권",
+      "buyAmount": 2198880
+    },
+    {
+      "accountId": 1,
+      "name": "Schwab 미국 배당주 ETF",
+      "qty": 2,
+      "curPrice": 31860,
+      "evalAmount": 96395,
+      "type": "해외증권",
+      "buyAmount": 73297
+    },
+    {
+      "accountId": 1,
+      "name": "서프 에어 모빌리티",
+      "qty": 20,
+      "curPrice": 1170,
+      "evalAmount": 35399,
+      "type": "해외증권",
+      "buyAmount": 46077
+    },
+    {
+      "accountId": 1,
+      "name": "X-에너지",
+      "qty": 1,
+      "curPrice": 21560,
+      "evalAmount": 32615,
+      "type": "해외증권",
+      "buyAmount": 45674
+    },
+    {
+      "accountId": 2,
+      "name": "삼성전자",
+      "qty": 30,
+      "curPrice": 362500,
+      "evalAmount": 10875000,
+      "type": "주식",
+      "buyAmount": 1641000
+    },
+    {
+      "accountId": 2,
+      "name": "삼성미국S&P500인덱스증권자투자H(주)-Ce",
+      "qty": 26443,
+      "curPrice": 3078,
+      "evalAmount": 81396,
+      "type": "수익증권",
+      "buyAmount": 69677
+    },
+    {
+      "accountId": 2,
+      "name": "AST 스페이스모바일",
+      "qty": 62,
+      "curPrice": 80660,
+      "evalAmount": 7565391,
+      "type": "해외증권",
+      "buyAmount": 5120151
+    },
+    {
+      "accountId": 2,
+      "name": "TRDR 2X ASTS ETF",
+      "qty": 200,
+      "curPrice": 24265,
+      "evalAmount": 7341618,
+      "type": "해외증권",
+      "buyAmount": 7613913
+    },
+    {
+      "accountId": 2,
+      "name": "셀레스티카",
+      "qty": 20,
+      "curPrice": 372550,
+      "evalAmount": 11271872,
+      "type": "해외증권",
+      "buyAmount": 4450910
+    },
+    {
+      "accountId": 2,
+      "name": "TRDR 2X CRDO ETF",
+      "qty": 39,
+      "curPrice": 99410,
+      "evalAmount": 5865110,
+      "type": "해외증권",
+      "buyAmount": 962096
+    },
+    {
+      "accountId": 2,
+      "name": "TT DF 2XIREN ETF",
+      "qty": 81,
+      "curPrice": 29850,
+      "evalAmount": 3657723,
+      "type": "해외증권",
+      "buyAmount": 1931312
+    },
+    {
+      "accountId": 2,
+      "name": "아이렌",
+      "qty": 100,
+      "curPrice": 59960,
+      "evalAmount": 9070748,
+      "type": "해외증권",
+      "buyAmount": 5285207
+    },
+    {
+      "accountId": 3,
+      "name": "SOL 팔란티어커버드콜OTM채권혼합",
+      "qty": 2008,
+      "curPrice": 8410,
+      "evalAmount": 16887280,
+      "type": "주식",
+      "buyAmount": 20086024
+    },
+    {
+      "accountId": 3,
+      "name": "삼성전자",
+      "qty": 15,
+      "curPrice": 362500,
+      "evalAmount": 5437500,
+      "type": "주식",
+      "buyAmount": 967500
+    },
+    {
+      "accountId": 3,
+      "name": "PLUS 자사주매입고배당주",
+      "qty": 31,
+      "curPrice": 12800,
+      "evalAmount": 396800,
+      "type": "주식",
+      "buyAmount": 341961
+    },
+    {
+      "accountId": 3,
+      "name": "ACE 미국AI테크핵심산업액티브",
+      "qty": 909,
+      "curPrice": 10200,
+      "evalAmount": 9271800,
+      "type": "주식",
+      "buyAmount": 7576515
+    },
+    {
+      "accountId": 3,
+      "name": "SOL 200타겟위클리커버드콜",
+      "qty": 1995,
+      "curPrice": 16485,
+      "evalAmount": 32887575,
+      "type": "주식",
+      "buyAmount": 27808305
+    },
+    {
+      "accountId": 3,
+      "name": "KODEX 미국우주항공",
+      "qty": 238,
+      "curPrice": 11965,
+      "evalAmount": 2847670,
+      "type": "주식",
+      "buyAmount": 2683884
+    },
+    {
+      "accountId": 3,
+      "name": "TIGER 현대차그룹플러스",
+      "qty": 15,
+      "curPrice": 64545,
+      "evalAmount": 968175,
+      "type": "주식",
+      "buyAmount": 861000
+    },
+    {
+      "accountId": 3,
+      "name": "KODEX 미국나스닥100",
+      "qty": 4,
+      "curPrice": 30425,
+      "evalAmount": 121700,
+      "type": "주식",
+      "buyAmount": 91388
+    },
+    {
+      "accountId": 3,
+      "name": "TIGER 미국테크TOP10타겟커버드콜",
+      "qty": 304,
+      "curPrice": 15995,
+      "evalAmount": 4862480,
+      "type": "주식",
+      "buyAmount": 3885728
+    },
+    {
+      "accountId": 3,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 1401,
+      "curPrice": 8530,
+      "evalAmount": 11950530,
+      "type": "주식",
+      "buyAmount": 13249257
+    },
+    {
+      "accountId": 3,
+      "name": "RISE 200위클리커버드콜",
+      "qty": 1485,
+      "curPrice": 16040,
+      "evalAmount": 23819400,
+      "type": "주식",
+      "buyAmount": 14374800
+    },
+    {
+      "accountId": 3,
+      "name": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+      "qty": 329,
+      "curPrice": 12195,
+      "evalAmount": 4012155,
+      "type": "주식",
+      "buyAmount": 4119080
+    },
+    {
+      "accountId": 3,
+      "name": "TIGER 미국S&P500타겟데일리커버드콜",
+      "qty": 354,
+      "curPrice": 13000,
+      "evalAmount": 4602000,
+      "type": "주식",
+      "buyAmount": 3640182
+    },
+    {
+      "accountId": 3,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 590,
+      "curPrice": 28270,
+      "evalAmount": 16679300,
+      "type": "주식",
+      "buyAmount": 10741540
+    },
+    {
+      "accountId": 5,
+      "name": "SOL 팔란티어미국채커버드콜혼합",
+      "qty": 90,
+      "curPrice": 9945,
+      "evalAmount": 895050,
+      "type": "주식",
+      "buyAmount": 1044090
+    },
+    {
+      "accountId": 5,
+      "name": "SOL 팔란티어커버드콜OTM채권혼합",
+      "qty": 1622,
+      "curPrice": 8410,
+      "evalAmount": 13641020,
+      "type": "주식",
+      "buyAmount": 16174584
+    },
+    {
+      "accountId": 5,
+      "name": "ACE 미국AI테크핵심산업액티브",
+      "qty": 453,
+      "curPrice": 10200,
+      "evalAmount": 4620600,
+      "type": "주식",
+      "buyAmount": 0
+    },
+    {
+      "accountId": 5,
+      "name": "SOL 200타겟위클리커버드콜",
+      "qty": 108,
+      "curPrice": 16485,
+      "evalAmount": 1780380,
+      "type": "주식",
+      "buyAmount": 1331748
+    },
+    {
+      "accountId": 5,
+      "name": "KODEX 미국우주항공",
+      "qty": 45,
+      "curPrice": 11965,
+      "evalAmount": 538425,
+      "type": "주식",
+      "buyAmount": 461430
+    },
+    {
+      "accountId": 5,
+      "name": "TIGER 현대차그룹플러스",
+      "qty": 253,
+      "curPrice": 64545,
+      "evalAmount": 16329885,
+      "type": "주식",
+      "buyAmount": 15415590
+    },
+    {
+      "accountId": 5,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 490,
+      "curPrice": 8530,
+      "evalAmount": 4179700,
+      "type": "주식",
+      "buyAmount": 4602080
+    },
+    {
+      "accountId": 5,
+      "name": "RISE 200위클리커버드콜",
+      "qty": 639,
+      "curPrice": 16040,
+      "evalAmount": 10249560,
+      "type": "주식",
+      "buyAmount": 6492420
+    },
+    {
+      "accountId": 5,
+      "name": "TIGER 미국S&P500타겟데일리커버드콜",
+      "qty": 623,
+      "curPrice": 13000,
+      "evalAmount": 8099000,
+      "type": "주식",
+      "buyAmount": 6271542
+    },
+    {
+      "accountId": 5,
+      "name": "KODEX 미국나스닥100데일리커버드콜OTM",
+      "qty": 37,
+      "curPrice": 10935,
+      "evalAmount": 404595,
+      "type": "주식",
+      "buyAmount": 380286
+    },
+    {
+      "accountId": 5,
+      "name": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+      "qty": 517,
+      "curPrice": 12195,
+      "evalAmount": 6304815,
+      "type": "주식",
+      "buyAmount": 5990200
+    },
+    {
+      "accountId": 5,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 450,
+      "curPrice": 28270,
+      "evalAmount": 12721500,
+      "type": "주식",
+      "buyAmount": 8189550
+    },
+    {
+      "accountId": 5,
+      "name": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+      "qty": 310,
+      "curPrice": 11960,
+      "evalAmount": 3707600,
+      "type": "주식",
+      "buyAmount": 3707600
+    },
+    {
+      "accountId": 6,
+      "name": "SOL 팔란티어커버드콜OTM채권혼합",
+      "qty": 185,
+      "curPrice": 8410,
+      "evalAmount": 1555850,
+      "type": "주식",
+      "buyAmount": 1867190
+    },
+    {
+      "accountId": 6,
+      "name": "ACE 미국AI테크핵심산업액티브",
+      "qty": 237,
+      "curPrice": 10200,
+      "evalAmount": 2417400,
+      "type": "주식",
+      "buyAmount": 2370000
+    },
+    {
+      "accountId": 6,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 706,
+      "curPrice": 8530,
+      "evalAmount": 6022180,
+      "type": "주식",
+      "buyAmount": 6417540
+    },
+    {
+      "accountId": 6,
+      "name": "RISE 200위클리커버드콜",
+      "qty": 673,
+      "curPrice": 16040,
+      "evalAmount": 10794920,
+      "type": "주식",
+      "buyAmount": 6960060
+    },
+    {
+      "accountId": 6,
+      "name": "TIGER 미국테크TOP10타겟커버드콜",
+      "qty": 219,
+      "curPrice": 15995,
+      "evalAmount": 3502905,
+      "type": "주식",
+      "buyAmount": 3119524
+    },
+    {
+      "accountId": 6,
+      "name": "TIGER 미국S&P500타겟데일리커버드콜",
+      "qty": 354,
+      "curPrice": 13000,
+      "evalAmount": 4602000,
+      "type": "주식",
+      "buyAmount": 3919716
+    },
+    {
+      "accountId": 6,
+      "name": "KODEX 미국나스닥100데일리커버드콜OTM",
+      "qty": 208,
+      "curPrice": 10935,
+      "evalAmount": 2274480,
+      "type": "주식",
+      "buyAmount": 2111408
+    },
+    {
+      "accountId": 6,
+      "name": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+      "qty": 491,
+      "curPrice": 12195,
+      "evalAmount": 5987745,
+      "type": "주식",
+      "buyAmount": 6216480
+    },
+    {
+      "accountId": 6,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 309,
+      "curPrice": 28270,
+      "evalAmount": 8735430,
+      "type": "주식",
+      "buyAmount": 6365670
+    },
+    {
+      "accountId": 6,
+      "name": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+      "qty": 251,
+      "curPrice": 11960,
+      "evalAmount": 3001960,
+      "type": "주식",
+      "buyAmount": 3162600
+    },
+    {
+      "accountId": 6,
+      "name": "SOL 200타겟위클리커버드콜",
+      "qty": 361,
+      "curPrice": 16485,
+      "evalAmount": 5951085,
+      "type": "주식",
+      "buyAmount": 4664038
+    },
+    {
+      "accountId": 7,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 509,
+      "curPrice": 8530,
+      "evalAmount": 4341770,
+      "type": "주식",
+      "buyAmount": 4606400
+    },
+    {
+      "accountId": 7,
+      "name": "RISE 200위클리커버드콜",
+      "qty": 135,
+      "curPrice": 16040,
+      "evalAmount": 2165400,
+      "type": "주식",
+      "buyAmount": 1409400
+    },
+    {
+      "accountId": 7,
+      "name": "TIGER 미국테크TOP10타겟커버드콜",
+      "qty": 239,
+      "curPrice": 15995,
+      "evalAmount": 3822805,
+      "type": "주식",
+      "buyAmount": 3276674
+    },
+    {
+      "accountId": 7,
+      "name": "KODEX 미국나스닥100데일리커버드콜OTM",
+      "qty": 208,
+      "curPrice": 10935,
+      "evalAmount": 2274480,
+      "type": "주식",
+      "buyAmount": 2111408
+    },
+    {
+      "accountId": 7,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 135,
+      "curPrice": 28270,
+      "evalAmount": 3816450,
+      "type": "주식",
+      "buyAmount": 2251935
+    },
+    {
+      "accountId": 7,
+      "name": "TIGER 미국S&P500타겟데일리커버드콜",
+      "qty": 239,
+      "curPrice": 13000,
+      "evalAmount": 3107000,
+      "type": "주식",
+      "buyAmount": 2515714
+    },
+    {
+      "accountId": 7,
+      "name": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+      "qty": 768,
+      "curPrice": 11960,
+      "evalAmount": 9185280,
+      "type": "주식",
+      "buyAmount": 9502464
+    },
+    {
+      "accountId": 7,
+      "name": "삼성신종종류형MMF제4호-CP",
+      "qty": 336069,
+      "curPrice": 1010,
+      "evalAmount": 339728,
+      "type": "수익증권",
+      "buyAmount": 339597
+    },
+    {
+      "accountId": 4,
+      "name": "TIGER 현대차그룹플러스",
+      "qty": 11,
+      "curPrice": 64545,
+      "evalAmount": 709995,
+      "type": "주식",
+      "buyAmount": 638150
+    },
+    {
+      "accountId": 4,
+      "name": "KODEX 미국S&P500",
+      "qty": 9,
+      "curPrice": 25830,
+      "evalAmount": 232470,
+      "type": "주식",
+      "buyAmount": 131715
+    },
+    {
+      "accountId": 4,
+      "name": "KODEX 미국배당커버드콜액티브",
+      "qty": 227,
+      "curPrice": 13545,
+      "evalAmount": 3074715,
+      "type": "주식",
+      "buyAmount": 2555145
+    },
+    {
+      "accountId": 4,
+      "name": "RISE 글로벌자산배분액티브",
+      "qty": 24,
+      "curPrice": 15140,
+      "evalAmount": 363360,
+      "type": "주식",
+      "buyAmount": 345915
+    },
+    {
+      "accountId": 4,
+      "name": "TIGER 미국테크TOP10타겟커버드콜",
+      "qty": 235,
+      "curPrice": 15995,
+      "evalAmount": 3758825,
+      "type": "주식",
+      "buyAmount": 2771720
+    },
+    {
+      "accountId": 4,
+      "name": "KODEX 테슬라커버드콜채권혼합액티브",
+      "qty": 895,
+      "curPrice": 8530,
+      "evalAmount": 7634350,
+      "type": "주식",
+      "buyAmount": 8190800
+    },
+    {
+      "accountId": 4,
+      "name": "RISE 200위클리커버드콜",
+      "qty": 465,
+      "curPrice": 16040,
+      "evalAmount": 7458600,
+      "type": "주식",
+      "buyAmount": 3692810
+    },
+    {
+      "accountId": 4,
+      "name": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+      "qty": 304,
+      "curPrice": 12195,
+      "evalAmount": 3707280,
+      "type": "주식",
+      "buyAmount": 3845600
+    },
+    {
+      "accountId": 4,
+      "name": "KODEX 200타겟위클리커버드콜",
+      "qty": 27,
+      "curPrice": 28270,
+      "evalAmount": 763290,
+      "type": "주식",
+      "buyAmount": 441270
+    },
+    {
+      "accountId": 4,
+      "name": "KODEX 금융고배당TOP10타겟커버드콜",
+      "qty": 664,
+      "curPrice": 11960,
+      "evalAmount": 7941440,
+      "type": "주식",
+      "buyAmount": 8318115
+    },
+    {
+      "accountId": 4,
+      "name": "SOL 팔란티어커버드콜OTM채권혼합",
+      "qty": 989,
+      "curPrice": 8410,
+      "evalAmount": 8317490,
+      "type": "주식",
+      "buyAmount": 9666960
+    },
+    {
+      "accountId": 4,
+      "name": "SOL 팔란티어미국채커버드콜혼합",
+      "qty": 31,
+      "curPrice": 9945,
+      "evalAmount": 308295,
+      "type": "주식",
+      "buyAmount": 356345
+    },
+    {
+      "accountId": 4,
+      "name": "SOL 200타겟위클리커버드콜",
+      "qty": 69,
+      "curPrice": 16485,
+      "evalAmount": 1137465,
+      "type": "주식",
+      "buyAmount": 939865
+    },
+    {
+      "accountId": 4,
+      "name": "현금성자산(삼성증권)",
+      "qty": 185802,
+      "curPrice": 1,
+      "evalAmount": 185802,
+      "type": "수익증권",
+      "buyAmount": 185802
+    },
+    {
+      "accountId": 4,
+      "name": "삼성증권 디폴트옵션 안정자산형",
+      "qty": 0,
+      "curPrice": 0,
+      "evalAmount": 4388,
+      "type": "수익증권",
+      "buyAmount": 0
+    }
+  ],
+  "exchange_rate": 1512.8,
+  "baseline_date": "2026-06-19",
+  "baseline_time": "12:50"
+}
