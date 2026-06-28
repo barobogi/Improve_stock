@@ -1,8 +1,7 @@
 __pycache__/
 *.pyc
 *.pyo
-output/
+output/report_*.json
 *.log
 .env
-config_local.py
 kis_config.py

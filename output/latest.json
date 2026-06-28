@@ -1,0 +1,2603 @@
+{
+  "generated_at": "2026-06-28 13:26:28",
+  "dashboard_version": "v1.0",
+  "intended_for": "barobogi.github.io — 시그널 위젯 연동",
+  "portfolio_stats": {
+    "total_portfolio": 510681256.0,
+    "total_invested": 393025996.0,
+    "total_pnl": 117655260.0
+  },
+  "closing_bet": {
+    "total_analyzed": 99,
+    "buyable_signals": 27,
+    "grade_distribution": {
+      "S": 14,
+      "A": 13,
+      "B": 22,
+      "C": 43,
+      "D": 7
+    },
+    "signals": [
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": -12.7,
+          "volume": 1.99,
+          "ma": "above",
+          "inst": 0.28,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 46.0,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "앰프리어스 테크놀로지스",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(3.0x)",
+        "consistency": 0.93,
+        "details": {
+          "return_pct": 3.6,
+          "volume": 2.96,
+          "ma": "above",
+          "inst": 0.12,
+          "mom": 0.8
+        }
+      },
+      {
+        "stock": "실스크",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.95,
+        "details": {
+          "return_pct": -7.0,
+          "volume": 1.53,
+          "ma": "above",
+          "inst": 0.09,
+          "mom": 1.0
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 55.3,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": -14.3,
+          "volume": 1.99,
+          "ma": "above",
+          "inst": 0.28,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 55.3,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 37.2,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 69.5,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 73.0,
+          "volume": 1.51,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": -13.5,
+          "volume": 1.99,
+          "ma": "above",
+          "inst": 0.28,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "현금성자산(삼성증권)",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.4x)",
+        "consistency": 0.94,
+        "details": {
+          "return_pct": 0.0,
+          "volume": 2.39,
+          "ma": "above",
+          "inst": 0.27,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 미국배당커버드콜액티브",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 90.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.92,
+        "details": {
+          "return_pct": 20.3,
+          "volume": 0.54,
+          "ma": "above",
+          "inst": 0.29,
+          "mom": 0.7
+        }
+      },
+      {
+        "stock": "엔비디아",
+        "grade": "S",
+        "grade_display": "🔥 S",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.1x)",
+        "consistency": 0.95,
+        "details": {
+          "return_pct": 12.6,
+          "volume": 2.07,
+          "ma": "above",
+          "inst": -0.48,
+          "mom": 1.0
+        }
+      },
+      {
+        "stock": "삼성전자",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.69,
+        "details": {
+          "return_pct": 154.0,
+          "volume": 1.97,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": -0.1
+        }
+      },
+      {
+        "stock": "TRDR CLS DLY ETF",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.6x)",
+        "consistency": 0.73,
+        "details": {
+          "return_pct": -9.5,
+          "volume": 2.65,
+          "ma": "above",
+          "inst": 0.35,
+          "mom": 0.3
+        }
+      },
+      {
+        "stock": "RNDHLL INVTN ETF",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.5x)",
+        "consistency": 0.72,
+        "details": {
+          "return_pct": 1.1,
+          "volume": 2.55,
+          "ma": "above",
+          "inst": 0.33,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "X-에너지",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.9x)",
+        "consistency": 0.74,
+        "details": {
+          "return_pct": -28.6,
+          "volume": 1.9,
+          "ma": "above",
+          "inst": 0.67,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "삼성전자",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.69,
+        "details": {
+          "return_pct": 562.7,
+          "volume": 1.97,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": -0.1
+        }
+      },
+      {
+        "stock": "삼성전자",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.0x)",
+        "consistency": 0.69,
+        "details": {
+          "return_pct": 462.0,
+          "volume": 1.97,
+          "ma": "above",
+          "inst": 0.49,
+          "mom": -0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국S&P500",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 100,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.7x)",
+        "consistency": 0.74,
+        "details": {
+          "return_pct": 76.5,
+          "volume": 2.74,
+          "ma": "above",
+          "inst": 0.43,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "TRD2XLG APLD ETF",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.8x)",
+        "consistency": 0.72,
+        "details": {
+          "return_pct": 22.0,
+          "volume": 1.8,
+          "ma": "above",
+          "inst": 0.11,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "Leverage Shares 2X Long CBRS DLY ETF",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.5x)",
+        "consistency": 0.71,
+        "details": {
+          "return_pct": 14.0,
+          "volume": 2.45,
+          "ma": "above",
+          "inst": 0.14,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "삼성미국S&P500인덱스증권자투자H(주)-Ce",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(2.9x)",
+        "consistency": 0.74,
+        "details": {
+          "return_pct": 16.8,
+          "volume": 2.91,
+          "ma": "above",
+          "inst": 0.07,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.6x)",
+        "consistency": 0.71,
+        "details": {
+          "return_pct": 0.0,
+          "volume": 1.65,
+          "ma": "above",
+          "inst": 0.03,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.6x)",
+        "consistency": 0.71,
+        "details": {
+          "return_pct": -5.1,
+          "volume": 1.65,
+          "ma": "above",
+          "inst": 0.03,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "grade": "A",
+        "grade_display": "✅ A",
+        "score": 85.0,
+        "action": "BUY",
+        "reason": "5일선 위 | 거래량↑(1.6x)",
+        "consistency": 0.71,
+        "details": {
+          "return_pct": -3.3,
+          "volume": 1.65,
+          "ma": "above",
+          "inst": 0.03,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TRDR 2X ASTS ETF",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": -15.3,
+          "volume": 0.65,
+          "ma": "above",
+          "inst": 0.6,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "파가야 테크놀로지스",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": 42.1,
+          "volume": 2.21,
+          "ma": "below",
+          "inst": 0.42,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "퀀텀스케이프",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": -16.8,
+          "volume": 2.21,
+          "ma": "below",
+          "inst": 0.42,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "서프 에어 모빌리티",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.6x)",
+        "consistency": 0.54,
+        "details": {
+          "return_pct": -23.2,
+          "volume": 2.6,
+          "ma": "below",
+          "inst": 0.36,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "TRDR 2X ASTS ETF",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": -3.6,
+          "volume": 0.65,
+          "ma": "above",
+          "inst": 0.6,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TRDR 2X CRDO ETF",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(1.6x)",
+        "consistency": 0.55,
+        "details": {
+          "return_pct": 509.6,
+          "volume": 1.65,
+          "ma": "below",
+          "inst": 0.24,
+          "mom": 0.5
+        }
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 26.4,
+          "volume": 2.23,
+          "ma": "cross",
+          "inst": 0.55,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 29.1,
+          "volume": 2.23,
+          "ma": "cross",
+          "inst": 0.55,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 17.4,
+          "volume": 2.23,
+          "ma": "cross",
+          "inst": 0.55,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 75.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.2x)",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 23.5,
+          "volume": 2.23,
+          "ma": "cross",
+          "inst": 0.55,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "아이렌",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.4x)",
+        "consistency": 0.57,
+        "details": {
+          "return_pct": 26.1,
+          "volume": 2.37,
+          "ma": "cross",
+          "inst": 0.02,
+          "mom": 0.7
+        }
+      },
+      {
+        "stock": "DFC DLY RKLB ETF",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(2.3x)",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 8.3,
+          "volume": 2.33,
+          "ma": "above",
+          "inst": -0.34,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "아이렌",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.4x)",
+        "consistency": 0.57,
+        "details": {
+          "return_pct": 71.6,
+          "volume": 2.37,
+          "ma": "cross",
+          "inst": 0.02,
+          "mom": 0.7
+        }
+      },
+      {
+        "stock": "KODEX 미국나스닥100",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 이탈 | 거래량↑(2.5x)",
+        "consistency": 0.57,
+        "details": {
+          "return_pct": 33.2,
+          "volume": 2.49,
+          "ma": "cross",
+          "inst": 0.17,
+          "mom": 0.7
+        }
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(2.9x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": -2.6,
+          "volume": 2.93,
+          "ma": "above",
+          "inst": -0.29,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(2.9x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": 5.3,
+          "volume": 2.93,
+          "ma": "above",
+          "inst": -0.29,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(2.9x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": -3.7,
+          "volume": 2.93,
+          "ma": "above",
+          "inst": -0.29,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(2.9x)",
+        "consistency": 0.52,
+        "details": {
+          "return_pct": -3.6,
+          "volume": 2.93,
+          "ma": "above",
+          "inst": -0.29,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟커버드콜",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 70.0,
+        "action": "WATCH",
+        "reason": "5일선 위 | 거래량↑(1.5x)",
+        "consistency": 0.5,
+        "details": {
+          "return_pct": -4.5,
+          "volume": 1.52,
+          "ma": "above",
+          "inst": -0.29,
+          "mom": -0.0
+        }
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 65.0,
+        "action": "WATCH",
+        "reason": "5일선 위",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 0.7,
+          "volume": 1.07,
+          "ma": "above",
+          "inst": -0.11,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 65.0,
+        "action": "WATCH",
+        "reason": "5일선 위",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 6.1,
+          "volume": 1.07,
+          "ma": "above",
+          "inst": -0.11,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "grade": "B",
+        "grade_display": "👀 B",
+        "score": 65.0,
+        "action": "WATCH",
+        "reason": "5일선 위",
+        "consistency": 0.51,
+        "details": {
+          "return_pct": 16.7,
+          "volume": 1.07,
+          "ma": "above",
+          "inst": -0.11,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": 40.3,
+          "volume": 1.16,
+          "ma": "below",
+          "inst": 0.65,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.3x)",
+        "consistency": 0.27,
+        "details": {
+          "return_pct": 4.0,
+          "volume": 2.31,
+          "ma": "cross",
+          "inst": -0.15,
+          "mom": -0.3
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -0.9,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "셀레스티카",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.28,
+        "details": {
+          "return_pct": 116.9,
+          "volume": 0.74,
+          "ma": "above",
+          "inst": -0.03,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "RNDHL MEMRY ETF",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(3.0x)",
+        "consistency": 0.35,
+        "details": {
+          "return_pct": 42.8,
+          "volume": 2.96,
+          "ma": "cross",
+          "inst": 0.08,
+          "mom": 0.5
+        }
+      },
+      {
+        "stock": "Schwab 미국 배당주 ETF",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.34,
+        "details": {
+          "return_pct": 31.5,
+          "volume": 0.93,
+          "ma": "below",
+          "inst": 0.36,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "셀레스티카",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.28,
+        "details": {
+          "return_pct": 153.2,
+          "volume": 0.74,
+          "ma": "above",
+          "inst": -0.03,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "TT DF 2XIREN ETF",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(1.9x)",
+        "consistency": 0.27,
+        "details": {
+          "return_pct": 89.4,
+          "volume": 1.93,
+          "ma": "cross",
+          "inst": 0.08,
+          "mom": -0.3
+        }
+      },
+      {
+        "stock": "PLUS 자사주매입고배당주",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.38,
+        "details": {
+          "return_pct": 16.0,
+          "volume": 1.96,
+          "ma": "cross",
+          "inst": -0.42,
+          "mom": 0.8
+        }
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": 18.3,
+          "volume": 1.16,
+          "ma": "below",
+          "inst": 0.65,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.3x)",
+        "consistency": 0.27,
+        "details": {
+          "return_pct": 12.4,
+          "volume": 2.31,
+          "ma": "cross",
+          "inst": -0.15,
+          "mom": -0.3
+        }
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(3.0x)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 25.1,
+          "volume": 2.99,
+          "ma": "below",
+          "inst": -0.24,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -9.8,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": 33.7,
+          "volume": 1.16,
+          "ma": "below",
+          "inst": 0.65,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.3x)",
+        "consistency": 0.27,
+        "details": {
+          "return_pct": 5.9,
+          "volume": 2.31,
+          "ma": "cross",
+          "inst": -0.15,
+          "mom": -0.3
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -9.2,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -6.2,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(3.0x)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 12.3,
+          "volume": 2.99,
+          "ma": "below",
+          "inst": -0.24,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": 27.6,
+          "volume": 1.16,
+          "ma": "below",
+          "inst": 0.65,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -5.7,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(3.0x)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 16.7,
+          "volume": 2.99,
+          "ma": "below",
+          "inst": -0.24,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.3x)",
+        "consistency": 0.27,
+        "details": {
+          "return_pct": 11.3,
+          "volume": 2.31,
+          "ma": "cross",
+          "inst": -0.15,
+          "mom": -0.3
+        }
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(3.0x)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 35.6,
+          "volume": 2.99,
+          "ma": "below",
+          "inst": -0.24,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": -6.8,
+          "volume": 0.56,
+          "ma": "above",
+          "inst": 0.15,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 55.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 기관 매수",
+        "consistency": 0.32,
+        "details": {
+          "return_pct": 21.0,
+          "volume": 1.16,
+          "ma": "below",
+          "inst": 0.65,
+          "mom": 0.2
+        }
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.9)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 65.7,
+          "volume": 1.28,
+          "ma": "cross",
+          "inst": -0.01,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.9)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 57.9,
+          "volume": 1.28,
+          "ma": "cross",
+          "inst": -0.01,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.9)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 55.1,
+          "volume": 1.28,
+          "ma": "cross",
+          "inst": -0.01,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.9)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 53.6,
+          "volume": 1.28,
+          "ma": "cross",
+          "inst": -0.01,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.9)",
+        "consistency": 0.39,
+        "details": {
+          "return_pct": 102.0,
+          "volume": 1.28,
+          "ma": "cross",
+          "inst": -0.01,
+          "mom": 0.9
+        }
+      },
+      {
+        "stock": "삼성증권 디폴트옵션 안정자산형",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 50.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 모멘텀(0.6)",
+        "consistency": 0.36,
+        "details": {
+          "return_pct": 0.0,
+          "volume": 1.36,
+          "ma": "cross",
+          "inst": -0.17,
+          "mom": 0.6
+        }
+      },
+      {
+        "stock": "AST 스페이스모바일",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 45.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↓",
+        "consistency": 0.34,
+        "details": {
+          "return_pct": 26.6,
+          "volume": 0.5,
+          "ma": "below",
+          "inst": 0.4,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "AST 스페이스모바일",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 45.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↓",
+        "consistency": 0.34,
+        "details": {
+          "return_pct": 47.8,
+          "volume": 0.5,
+          "ma": "below",
+          "inst": 0.4,
+          "mom": 0.4
+        }
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -7.0,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "TRADR 2X LNG ETF",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 위 | 거래량↓",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -32.2,
+          "volume": 0.61,
+          "ma": "above",
+          "inst": -0.23,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -15.9,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -15.7,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": 6.4,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -16.7,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": 7.7,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": 7.7,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "RISE 글로벌자산배분액티브",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": 5.0,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "grade": "C",
+        "grade_display": "⏸ C",
+        "score": 40.0,
+        "action": "HOLD",
+        "reason": "5일선 이탈 | 거래량↑(2.0x)",
+        "consistency": 0.31,
+        "details": {
+          "return_pct": -14.0,
+          "volume": 2.03,
+          "ma": "below",
+          "inst": -0.47,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.13,
+        "details": {
+          "return_pct": 18.2,
+          "volume": 1.2,
+          "ma": "cross",
+          "inst": 0.04,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "KODEX 코스닥150레버리지",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈 | 모멘텀(0.8)",
+        "consistency": 0.23,
+        "details": {
+          "return_pct": 17.2,
+          "volume": 1.46,
+          "ma": "cross",
+          "inst": -0.22,
+          "mom": 0.8
+        }
+      },
+      {
+        "stock": "BTQ 테크놀로지스",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.16,
+        "details": {
+          "return_pct": 103.2,
+          "volume": 1.12,
+          "ma": "cross",
+          "inst": 0.08,
+          "mom": 0.1
+        }
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.13,
+        "details": {
+          "return_pct": 22.4,
+          "volume": 1.2,
+          "ma": "cross",
+          "inst": 0.04,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.13,
+        "details": {
+          "return_pct": 0.0,
+          "volume": 1.2,
+          "ma": "cross",
+          "inst": 0.04,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.13,
+        "details": {
+          "return_pct": 2.0,
+          "volume": 1.2,
+          "ma": "cross",
+          "inst": 0.04,
+          "mom": -0.2
+        }
+      },
+      {
+        "stock": "삼성신종종류형MMF제4호-CP",
+        "grade": "D",
+        "grade_display": "❌ D",
+        "score": 35.0,
+        "action": "SKIP",
+        "reason": "5일선 이탈",
+        "consistency": 0.19,
+        "details": {
+          "return_pct": 0.0,
+          "volume": 1.18,
+          "ma": "cross",
+          "inst": -0.06,
+          "mom": 0.4
+        }
+      }
+    ]
+  },
+  "vcp_scanner": {
+    "total_detected": 99,
+    "patterns": [
+      {
+        "stock": "RNDHLL INVTN ETF",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 8.4,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 100,
+        "description": "🔥 VCP 포착! 3차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "TT DF 2XIREN ETF",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 6.1,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 100,
+        "description": "🔥 VCP 포착! 4차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 10.4,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 90,
+        "description": "🔥 VCP 포착! 3차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 10.4,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 90,
+        "description": "🔥 VCP 포착! 3차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 10.4,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 90,
+        "description": "🔥 VCP 포착! 3차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 10.4,
+        "volume_trend": "declining",
+        "breakout_imminent": true,
+        "score": 90,
+        "description": "🔥 VCP 포착! 3차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "삼성미국S&P500인덱스증권자투자H(주)-Ce",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 5.4,
+        "volume_trend": "stable",
+        "breakout_imminent": true,
+        "score": 80,
+        "description": "🔥 VCP 포착! 4차 수렴 완료 — 돌파 임박!"
+      },
+      {
+        "stock": "삼성전자",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 21.9,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 21.9%)"
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 15.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 15.4%)"
+      },
+      {
+        "stock": "KODEX 코스닥150레버리지",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 21.8,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 21.8%)"
+      },
+      {
+        "stock": "TRD2XLG APLD ETF",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.6,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.6%)"
+      },
+      {
+        "stock": "아이렌",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.8,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.8%)"
+      },
+      {
+        "stock": "실스크",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 17.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 17.4%)"
+      },
+      {
+        "stock": "파가야 테크놀로지스",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 15.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 15.0%)"
+      },
+      {
+        "stock": "퀀텀스케이프",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 15.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 15.0%)"
+      },
+      {
+        "stock": "삼성전자",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 21.9,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 21.9%)"
+      },
+      {
+        "stock": "아이렌",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.8,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.8%)"
+      },
+      {
+        "stock": "삼성전자",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 21.9,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 21.9%)"
+      },
+      {
+        "stock": "PLUS 자사주매입고배당주",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 27.6,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 27.6%)"
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 15.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 15.4%)"
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 15.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 15.4%)"
+      },
+      {
+        "stock": "TIGER 현대차그룹플러스",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 15.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 70,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 15.4%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 38.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 38.5%)"
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 23.2,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 60,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 23.2%)"
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 13.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 13.0%)"
+      },
+      {
+        "stock": "RNDHL MEMRY ETF",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 27.6,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 27.6%)"
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 13.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 13.0%)"
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 13.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 13.0%)"
+      },
+      {
+        "stock": "ACE 미국AI테크핵심산업액티브",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 13.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 13.0%)"
+      },
+      {
+        "stock": "삼성신종종류형MMF제4호-CP",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 18.8,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 18.8%)"
+      },
+      {
+        "stock": "KODEX 미국S&P500",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 11.9,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 11.9%)"
+      },
+      {
+        "stock": "삼성증권 디폴트옵션 안정자산형",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 17.1,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 55,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 17.1%)"
+      },
+      {
+        "stock": "엔비디아",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 29.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 29.1%)"
+      },
+      {
+        "stock": "서프 에어 모빌리티",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 18.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 18.1%)"
+      },
+      {
+        "stock": "X-에너지",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 21.2,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 21.2%)"
+      },
+      {
+        "stock": "TRDR 2X CRDO ETF",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 35.5,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 35.5%)"
+      },
+      {
+        "stock": "KODEX 미국나스닥100",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 24.5,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 24.5%)"
+      },
+      {
+        "stock": "RISE 글로벌자산배분액티브",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 50,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 31.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 31.4%)"
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 31.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 31.4%)"
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 26.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 26.0%)"
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 31.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 31.4%)"
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 26.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 26.0%)"
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 26.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 26.0%)"
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 31.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 31.4%)"
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 26.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 26.0%)"
+      },
+      {
+        "stock": "RISE 200위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 26.0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 26.0%)"
+      },
+      {
+        "stock": "SOL 200타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 2,
+        "contraction_pct": 31.4,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 45,
+        "description": "👀 VCP 진행중 — 2차 수렴 (축소율 31.4%)"
+      },
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 18.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 18.8%)"
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "BTQ 테크놀로지스",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 26.7,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "TRDR CLS DLY ETF",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 27.5,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 34.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 34.1%)"
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 20.9,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 20.9%)"
+      },
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 18.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 18.8%)"
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 20.9,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 20.9%)"
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 28.5,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 28.5%)"
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 34.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 34.1%)"
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 20.9,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 20.9%)"
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 28.5,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 28.5%)"
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 34.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 34.1%)"
+      },
+      {
+        "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 20.9,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 20.9%)"
+      },
+      {
+        "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+        "detected": true,
+        "contraction_count": 3,
+        "contraction_pct": 28.5,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 3차 수렴 (축소율 28.5%)"
+      },
+      {
+        "stock": "TIGER 미국테크TOP10타겟커버드콜",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 34.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 34.1%)"
+      },
+      {
+        "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 26.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 26.8%)"
+      },
+      {
+        "stock": "SOL 팔란티어미국채커버드콜혼합",
+        "detected": true,
+        "contraction_count": 4,
+        "contraction_pct": 18.8,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 40,
+        "description": "👀 VCP 진행중 — 4차 수렴 (축소율 18.8%)"
+      },
+      {
+        "stock": "TRDR 2X ASTS ETF",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 30,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "셀레스티카",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 30,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "TRDR 2X ASTS ETF",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 30,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "셀레스티카",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 30,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 33.7,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "앰프리어스 테크놀로지스",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 23.1,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "Leverage Shares 2X Long CBRS DLY ETF",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 33.9,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "Schwab 미국 배당주 ETF",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 22.4,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 33.7,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 미국우주항공",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 33.7,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 미국배당커버드콜액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "declining",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "현금성자산(삼성증권)",
+        "detected": false,
+        "contraction_count": 1,
+        "contraction_pct": 5.7,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 20,
+        "description": "🔍 초기 VCP 감지 — 모니터링 필요"
+      },
+      {
+        "stock": "TRADR 2X LNG ETF",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 10,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "AST 스페이스모바일",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 10,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "DFC DLY RKLB ETF",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 10,
+        "description": "VCP 패턴 없음"
+      },
+      {
+        "stock": "AST 스페이스모바일",
+        "detected": false,
+        "contraction_count": 0,
+        "contraction_pct": 0,
+        "volume_trend": "stable",
+        "breakout_imminent": false,
+        "score": 10,
+        "description": "VCP 패턴 없음"
+      }
+    ]
+  },
+  "integration_guide": "이 JSON을 대시보드의 stock-dashboard.html에 fetch('/output/report_*.json')로 읽어서 '📊 AI 분석' 탭에 표시하세요."
+}
