@@ -1,0 +1,831 @@
+{
+  "generated_at": "2026-06-28 15:24:55",
+  "mode": "yfinance",
+  "total": 43,
+  "buyable": 1,
+  "distribution": {
+    "A": 1,
+    "B": 3,
+    "C": 4,
+    "D": 35
+  },
+  "signals": [
+    {
+      "stock": "파가야 테크놀로지스",
+      "grade": "A",
+      "action": "BUY",
+      "score": 85.0,
+      "reason": "5일선 위 | 거래량↑(3.0x)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 15.869999885559082,
+      "confidence": 0.71,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 3.02,
+        "ma": "above",
+        "inst": 0.0,
+        "mom": 0.1
+      },
+      "grade_icon": "✅ A"
+    },
+    {
+      "stock": "AST 스페이스모바일",
+      "grade": "B",
+      "action": "WATCH",
+      "score": 65.0,
+      "reason": "5일선 위",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 71.44999694824219,
+      "confidence": 0.43,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.84,
+        "ma": "above",
+        "inst": 0.0,
+        "mom": -0.7
+      },
+      "grade_icon": "👀 B"
+    },
+    {
+      "stock": "Schwab 미국 배당주 ETF",
+      "grade": "B",
+      "action": "WATCH",
+      "score": 65.0,
+      "reason": "5일선 위",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 32.09000015258789,
+      "confidence": 0.49,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.05,
+        "ma": "above",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "👀 B"
+    },
+    {
+      "stock": "TRDR 2X ASTS ETF",
+      "grade": "B",
+      "action": "WATCH",
+      "score": 65.0,
+      "reason": "5일선 위",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 18.510000228881836,
+      "confidence": 0.4,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.83,
+        "ma": "above",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "👀 B"
+    },
+    {
+      "stock": "SOL 200타겟위클리커버드콜",
+      "grade": "C",
+      "action": "HOLD",
+      "score": 55.0,
+      "reason": "5일선 이탈 | 거래량↑(1.6x)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 15560.0,
+      "confidence": 0.3,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.62,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.1
+      },
+      "grade_icon": "⏸ C"
+    },
+    {
+      "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+      "grade": "C",
+      "action": "HOLD",
+      "score": 55.0,
+      "reason": "5일선 이탈 | 거래량↑(1.7x)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 10630.0,
+      "confidence": 0.28,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.7,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.2
+      },
+      "grade_icon": "⏸ C"
+    },
+    {
+      "stock": "Leverage Shares 2X Long CBRS DLY ETF",
+      "grade": "C",
+      "action": "HOLD",
+      "score": 55.0,
+      "reason": "5일선 이탈 | 거래량↑(1.9x)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 4.050000190734863,
+      "confidence": 0.2,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.85,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "⏸ C"
+    },
+    {
+      "stock": "RNDHL MEMRY ETF",
+      "grade": "C",
+      "action": "HOLD",
+      "score": 50.0,
+      "reason": "5일선 이탈 | 모멘텀(0.5)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 71.87999725341797,
+      "confidence": 0.35,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.12,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.5
+      },
+      "grade_icon": "⏸ C"
+    },
+    {
+      "stock": "삼성전자",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 339500.0,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.24,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 코스닥150레버리지",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 9230.0,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.3,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 미국나스닥100",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 25410.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.81,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 미국S&P500",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 29615.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.43,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 8045.0,
+      "confidence": 0.13,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.95,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.2
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TIGER 현대차그룹플러스",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 52745.0,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.86,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 8390.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.85,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 200타겟위클리커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 26600.0,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.14,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 11465.0,
+      "confidence": 0.11,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.13,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.4
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 12785.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.97,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 10810.0,
+      "confidence": 0.09,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.4,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.6
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 미국배당커버드콜액티브",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 13380.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.07,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "RISE 글로벌자산배분액티브",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 14935.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.18,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 금융고배당TOP10타겟커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 10810.0,
+      "confidence": 0.09,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.4,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.6
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "아이렌",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 47.209999084472656,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.14,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "엔비디아",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 192.52999877929688,
+      "confidence": 0.12,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.06,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.3
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "퀀텀스케이프",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 7.159999847412109,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.88,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "서프 에어 모빌리티",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 0.9020000100135803,
+      "confidence": 0.07,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.87,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.8
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "앰프리어스 테크놀로지스",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 12.90999984741211,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.41,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "실스크",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 3.119999885559082,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.04,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "X-에너지",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 18.8799991607666,
+      "confidence": 0.16,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.16,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": 0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "DFC DLY RKLB ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 31.469999313354492,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.95,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "RNDHLL INVTN ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 35.0,
+      "reason": "5일선 이탈",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 30.149999618530273,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 1.13,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "SOL 팔란티어미국채커버드콜혼합",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 9610.0,
+      "confidence": 0.13,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.75,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.2
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "ACE 미국AI테크핵심산업액티브",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 9525.0,
+      "confidence": 0.12,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.74,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.2
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 미국우주항공",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 9535.0,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.5,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "PLUS 자사주매입고배당주",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 11580.0,
+      "confidence": 0.08,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.78,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.7
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TIGER 미국테크TOP10타겟커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 15150.0,
+      "confidence": 0.13,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.79,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.2
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "셀레스티카",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 337.5299987792969,
+      "confidence": 0.08,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.63,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.7
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "BTQ 테크놀로지스",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 9.999999747378752e-05,
+      "confidence": 0.15,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.0,
+        "ma": "cross",
+        "inst": 0.0,
+        "mom": 0.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRADR 2X LNG ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 7.829999923706055,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.64,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRDR CLS DLY ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 16.149999618530273,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.51,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRDR 2X CRDO ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 75.83499908447266,
+      "confidence": 0.09,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.54,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.6
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TT DF 2XIREN ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 18.030000686645508,
+      "confidence": 0.05,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.64,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -1.0
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRD2XLG APLD ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 22.860000610351562,
+      "confidence": 0.06,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.62,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.9
+      },
+      "grade_icon": "❌ D"
+    }
+  ]
+}
