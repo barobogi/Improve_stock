@@ -95,7 +95,11 @@ def main():
         f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(dashboard_json, f, ensure_ascii=False, indent=2)
+    latest_path = os.path.join(OUTPUT_DIR, "latest.json")
+    with open(latest_path, "w", encoding="utf-8") as f:
+        json.dump(dashboard_json, f, ensure_ascii=False, indent=2)
     print(f"  ✅ 저장됨: {output_path}")
+    print(f"  ✅ 최신본: {latest_path}")
 
     # ─────────────────────────────────────────────
     # Step 6: 요약
