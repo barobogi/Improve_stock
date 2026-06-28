@@ -43,9 +43,9 @@
   "TT DF 2XIREN ETF": {"ticker": "IRE", "market": "NASDAQ", "type": "해외증권", "note": "⚠️ 확인필요"},
   "TRD2XLG APLD ETF": {"ticker": "APLX", "market": "NASDAQ", "type": "해외증권", "note": "⚠️ 확인필요"},
   "DFC DLY RKLB ETF": {"ticker": "RKLX", "market": "NASDAQ", "type": "해외증권", "note": "⚠️ 확인필요"},
-  "Leverage Shares 2X Long CBRS DLY ETF": {"ticker": "CBRG", "market": "TODO", "type": "해외증권", "note": "⚠️ 확인필요"},
+  "Leverage Shares 2X Long CBRS DLY ETF": {"ticker": "CBRG", "market": "AMEX", "type": "해외증권", "note": "⚠️ 확인필요"},
   "RNDHL MEMRY ETF": {"ticker": "DRAM", "market": "NASDAQ", "type": "해외증권", "note": "⚠️ 확인필요"},
-  "RNDHLL INVTN ETF": {"ticker": "QDTE", "market": "TODO", "type": "해외증권", "note": "⚠️ 확인필요"},
+  "RNDHLL INVTN ETF": {"ticker": "QDTE", "market": "AMEX", "type": "해외증권", "note": "⚠️ 확인필요"},
 
   "삼성미국S&P500인덱스증권자투자H(주)-Ce": {"ticker": null, "market": "SKIP", "type": "수익증권"},
   "삼성신종종류형MMF제4호-CP": {"ticker": null, "market": "SKIP", "type": "수익증권"},
