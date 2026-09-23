@@ -1,0 +1,867 @@
+[
+  {
+    "stock": "KODEX 미국나스닥100",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 36.5,
+    "reason": "뉴스테마(AI) | 외국인매수(39점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.36,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 38.7,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 27.0,
+    "reason": "뉴스테마(AI) | 외국인매수(15점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.27,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 15.1,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "TRD2XLG APLD ETF",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 25.0,
+    "reason": "뉴스테마(AI) | 외국인매수(10점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.25,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 10.1,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "KODEX 금융고배당TOP10타겟커버드콜",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.9,
+    "reason": "뉴스테마(금융) | 외국인매수(10점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.22,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 9.8,
+      "narrative_score": 30.0,
+      "themes": [
+        "금융"
+      ],
+      "top_headline": "[사설] 롤러코스피에 또 '국장 탈출'…신뢰회복 조치 뒤따라야"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "KODEX 금융고배당TOP10타겟위클리커버드콜",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.9,
+    "reason": "뉴스테마(금융) | 외국인매수(10점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.22,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 9.8,
+      "narrative_score": 30.0,
+      "themes": [
+        "금융"
+      ],
+      "top_headline": "[사설] 롤러코스피에 또 '국장 탈출'…신뢰회복 조치 뒤따라야"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "ACE 미국AI테크핵심산업액티브",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.0,
+    "reason": "뉴스테마(AI)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.21,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "TIGER 미국테크TOP10타겟커버드콜",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.0,
+    "reason": "뉴스테마(AI)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.21,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.0,
+    "reason": "뉴스테마(AI)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.21,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "엔비디아",
+    "grade": "C",
+    "action": "HOLD",
+    "score": 21.0,
+    "reason": "뉴스테마(AI)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.21,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 35.0,
+      "themes": [
+        "AI"
+      ],
+      "top_headline": "수억대 연봉 '네오 블루칼라'…젠슨 황의 전망, 현실로 성큼"
+    },
+    "grade_icon": "⏸ C"
+  },
+  {
+    "stock": "KODEX 미국배당커버드콜액티브",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 18.7,
+    "reason": "뉴스테마(금융) | 외국인매수(2점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.19,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 1.8,
+      "narrative_score": 30.0,
+      "themes": [
+        "금융"
+      ],
+      "top_headline": "[사설] 롤러코스피에 또 '국장 탈출'…신뢰회복 조치 뒤따라야"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "Schwab 미국 배당주 ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 18.0,
+    "reason": "뉴스테마(금융)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.18,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 30.0,
+      "themes": [
+        "금융"
+      ],
+      "top_headline": "[사설] 롤러코스피에 또 '국장 탈출'…신뢰회복 조치 뒤따라야"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "X-에너지",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 18.0,
+    "reason": "뉴스테마(에너지)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.18,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 30.0,
+      "themes": [
+        "에너지"
+      ],
+      "top_headline": "셰브런, 호르무즈 우회 위해…이라크-시리아 송유관 건설"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "RNDHLL INVTN ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 18.0,
+    "reason": "뉴스테마(금융)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.18,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 30.0,
+      "themes": [
+        "금융"
+      ],
+      "top_headline": "[사설] 롤러코스피에 또 '국장 탈출'…신뢰회복 조치 뒤따라야"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TRADR 2X LNG ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 18.0,
+    "reason": "뉴스테마(에너지)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.18,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 30.0,
+      "themes": [
+        "에너지"
+      ],
+      "top_headline": "셰브런, 호르무즈 우회 위해…이라크-시리아 송유관 건설"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "AST 스페이스모바일",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 12.8,
+    "reason": "뉴스테마(우주항공) | 외국인매수(2점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.13,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 1.9,
+      "narrative_score": 20.0,
+      "themes": [
+        "우주항공"
+      ],
+      "top_headline": "우주 망원경 구조하는 팔 세개 달린 로봇"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "DFC DLY RKLB ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 12.2,
+    "reason": "뉴스테마(우주항공) | 외국인매수(1점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.12,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0.6,
+      "narrative_score": 20.0,
+      "themes": [
+        "우주항공"
+      ],
+      "top_headline": "우주 망원경 구조하는 팔 세개 달린 로봇"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "서프 에어 모빌리티",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 12.0,
+    "reason": "뉴스테마(우주항공)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.12,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 20.0,
+      "themes": [
+        "우주항공"
+      ],
+      "top_headline": "우주 망원경 구조하는 팔 세개 달린 로봇"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "KODEX 미국우주항공",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 12.0,
+    "reason": "뉴스테마(우주항공)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.12,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 20.0,
+      "themes": [
+        "우주항공"
+      ],
+      "top_headline": "우주 망원경 구조하는 팔 세개 달린 로봇"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TRDR 2X ASTS ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 12.0,
+    "reason": "뉴스테마(우주항공)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.12,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0.0,
+      "narrative_score": 20.0,
+      "themes": [
+        "우주항공"
+      ],
+      "top_headline": "우주 망원경 구조하는 팔 세개 달린 로봇"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "BTQ 테크놀로지스",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 9.0,
+    "reason": "뉴스테마(기타)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.09,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 15.0,
+      "themes": [
+        "기타"
+      ],
+      "top_headline": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "앰프리어스 테크놀로지스",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 9.0,
+    "reason": "뉴스테마(기타)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.09,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 15.0,
+      "themes": [
+        "기타"
+      ],
+      "top_headline": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "실스크",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 9.0,
+    "reason": "뉴스테마(기타)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.09,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 15.0,
+      "themes": [
+        "기타"
+      ],
+      "top_headline": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "RISE 글로벌자산배분액티브",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 9.0,
+    "reason": "뉴스테마(기타)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.09,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 15.0,
+      "themes": [
+        "기타"
+      ],
+      "top_headline": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "Leverage Shares 2X Long CBRS DLY ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 9.0,
+    "reason": "뉴스테마(기타)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.09,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 15.0,
+      "themes": [
+        "기타"
+      ],
+      "top_headline": "\"돈내고 트럼프 발언 먼저 봐\"…트루스소셜, 내달 상품 출시"
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "RNDHL MEMRY ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 4.0,
+    "reason": "외국인매수(10점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.04,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 9.9,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "KODEX 코스닥150레버리지",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 3.0,
+    "reason": "외국인매수(8점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.03,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 7.6,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TT DF 2XIREN ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 2.4,
+    "reason": "외국인매수(6점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.02,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 6.1,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "KODEX 200타겟위클리커버드콜",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 1.2,
+    "reason": "외국인매수(3점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.01,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 3.0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "KODEX 미국S&P500",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.7,
+    "reason": "외국인매수(2점)",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.01,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 1.8,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "셀레스티카",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TIGER 현대차그룹플러스",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "SOL 200타겟위클리커버드콜",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "PLUS 자사주매입고배당주",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "파가야 테크놀로지스",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "삼성전자",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TRDR 2X CRDO ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "SOL 팔란티어커버드콜OTM채권혼합",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "퀀텀스케이프",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "아이렌",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "SOL 팔란티어미국채커버드콜혼합",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "KODEX 테슬라커버드콜채권혼합액티브",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  },
+  {
+    "stock": "TRDR CLS DLY ETF",
+    "grade": "D",
+    "action": "SKIP",
+    "score": 0.0,
+    "reason": "신호 없음",
+    "target_price": null,
+    "stop_loss": null,
+    "entry_price": null,
+    "confidence": 0.0,
+    "details": {
+      "vcp_score": 0.0,
+      "foreign_score": 0,
+      "narrative_score": 0.0,
+      "themes": [],
+      "top_headline": ""
+    },
+    "grade_icon": "❌ D"
+  }
+]

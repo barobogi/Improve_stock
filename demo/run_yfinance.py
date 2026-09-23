@@ -20,6 +20,7 @@ from core.yfinance_provider import YFinanceProvider
 from core.closing_bet import ClosingBetEngine
 from core.signal_types import PortfolioItem, SignalGrade
 from core.telegram_notify import send_signal_report
+from core.combined_scorer import run as combined_run
 
 
 def build_portfolio(provider: YFinanceProvider) -> list[PortfolioItem]:
@@ -97,22 +98,32 @@ def main():
         mom  = s.details.get("mom", 0)
         print(f"  [{s.grade.value}] {s.stock_name:30s} 거래량:{vol:.1f}x | MA:{ma} | 모멘텀:{mom:.2f}")
 
-    # ── Step 4: 텔레그램 전송 ──────────────────────────────
-    print_header("Step 4: 텔레그램 전송")
+    # ── Step 4: v1.1 3중 필터 합산 ────────────────────────────
+    print_header("Step 4: v1.1 내러티브 + 외국인 + VCP 3중 필터")
+    vcp_score_map = {s.stock_name: s.score for s in cb_report.signals}
+    combined = combined_run(vcp_scores=vcp_score_map, notify=True)
+
+    print(f"\n  3중 필터 TOP 5:")
+    for r in combined[:5]:
+        print(f"    [{r.grade.value}] {r.stock_name:20s} {r.score:.0f}점 | {r.reason}")
+
+    # ── Step 5: 텔레그램 전송 (VCP 기존 방식) ─────────────────
+    print_header("Step 5: 텔레그램 전송 (VCP 단독)")
     sent = send_signal_report(cb_report.signals, [], is_mock=False)
     if sent:
         print("  텔레그램 전송 완료!")
     else:
         print("  텔레그램 미설정 또는 전송 실패")
 
-    # ── Step 5: JSON 저장 ───────────────────────────────────
+    # ── Step 6: JSON 저장 ───────────────────────────────────
     output = {
         "generated_at": cb_report.generated_at,
-        "mode": "yfinance",
+        "mode": "yfinance_v1.1",
         "total": cb_report.summary["total"],
         "buyable": cb_report.summary["buyable"],
         "distribution": cb_report.summary["distribution"],
-        "signals": [s.to_dict() for s in cb_report.signals],
+        "signals_vcp": [s.to_dict() for s in cb_report.signals],
+        "signals_combined": [r.to_dict() for r in combined[:20]],
     }
     ts          = datetime.now().strftime("%Y%m%d_%H%M%S")
     report_path = os.path.join(OUTPUT_DIR, f"yf_report_{ts}.json")

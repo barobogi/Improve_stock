@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16 18:13:31",
+  "generated_at": "2026-07-16 17:59:37",
   "mode": "yfinance_v1.1",
   "total": 43,
   "buyable": 0,
@@ -116,7 +116,7 @@
       "confidence": 0.3,
       "details": {
         "return_pct": 0.0,
-        "volume": 0.56,
+        "volume": 0.54,
         "ma": "above",
         "inst": 0.0,
         "mom": 0.0
@@ -173,7 +173,7 @@
       "confidence": 0.06,
       "details": {
         "return_pct": 0.0,
-        "volume": 0.8,
+        "volume": 0.92,
         "ma": "below",
         "inst": 0.0,
         "mom": -0.9
@@ -192,29 +192,10 @@
       "confidence": 0.07,
       "details": {
         "return_pct": 0.0,
-        "volume": 0.84,
+        "volume": 0.83,
         "ma": "below",
         "inst": 0.0,
         "mom": -0.8
-      },
-      "grade_icon": "❌ D"
-    },
-    {
-      "stock": "TIGER 미국S&P500타겟데일리커버드콜",
-      "grade": "D",
-      "action": "SKIP",
-      "score": 35.0,
-      "reason": "5일선 이탈",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": 12680.0,
-      "confidence": 0.14,
-      "details": {
-        "return_pct": 0.0,
-        "volume": 0.9,
-        "ma": "below",
-        "inst": 0.0,
-        "mom": -0.1
       },
       "grade_icon": "❌ D"
     },
@@ -561,6 +542,25 @@
       "grade_icon": "❌ D"
     },
     {
+      "stock": "TIGER 미국S&P500타겟데일리커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 25.0,
+      "reason": "5일선 이탈 | 거래량↓",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": 12680.0,
+      "confidence": 0.14,
+      "details": {
+        "return_pct": 0.0,
+        "volume": 0.76,
+        "ma": "below",
+        "inst": 0.0,
+        "mom": -0.1
+      },
+      "grade_icon": "❌ D"
+    },
+    {
       "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
       "grade": "D",
       "action": "SKIP",
@@ -572,7 +572,7 @@
       "confidence": 0.13,
       "details": {
         "return_pct": 0.0,
-        "volume": 0.69,
+        "volume": 0.67,
         "ma": "below",
         "inst": 0.0,
         "mom": -0.2
@@ -829,151 +829,40 @@
   ],
   "signals_combined": [
     {
-      "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
-      "grade": "B",
-      "action": "WATCH",
-      "score": 44.5,
-      "reason": "뉴스테마(AI) | VCP(65점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.45,
-      "details": {
-        "vcp_score": 65.0,
-        "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
-      },
-      "grade_icon": "👀 B"
-    },
-    {
       "stock": "엔비디아",
-      "grade": "B",
-      "action": "WATCH",
-      "score": 44.5,
-      "reason": "뉴스테마(AI) | VCP(65점)",
+      "grade": "C",
+      "action": "HOLD",
+      "score": 32.5,
+      "reason": "VCP(65점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.45,
+      "confidence": 0.33,
       "details": {
         "vcp_score": 65.0,
         "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
-      },
-      "grade_icon": "👀 B"
-    },
-    {
-      "stock": "TIGER 미국테크TOP10타겟커버드콜",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 39.5,
-      "reason": "뉴스테마(AI) | VCP(55점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.4,
-      "details": {
-        "vcp_score": 55.0,
-        "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "KODEX 미국나스닥100",
+      "stock": "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
       "grade": "C",
       "action": "HOLD",
-      "score": 39.5,
-      "reason": "뉴스테마(AI) | VCP(55점)",
+      "score": 32.5,
+      "reason": "VCP(65점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.4,
+      "confidence": 0.33,
       "details": {
-        "vcp_score": 55.0,
+        "vcp_score": 65.0,
         "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "DFC DLY RKLB ETF",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 35.5,
-      "reason": "뉴스테마(방산, 우주항공) | VCP(35점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.35,
-      "details": {
-        "vcp_score": 35.0,
-        "foreign_score": 0.0,
-        "narrative_score": 60.0,
-        "themes": [
-          "방산",
-          "우주항공"
-        ],
-        "top_headline": "한화에어로, 軍 다목적 무인차량 사업 선정"
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "KODEX 미국우주항공",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 30.5,
-      "reason": "뉴스테마(방산, 우주항공) | VCP(25점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.3,
-      "details": {
-        "vcp_score": 25.0,
-        "foreign_score": 0.0,
-        "narrative_score": 60.0,
-        "themes": [
-          "방산",
-          "우주항공"
-        ],
-        "top_headline": "한화에어로, 軍 다목적 무인차량 사업 선정"
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "TRD2XLG APLD ETF",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 29.5,
-      "reason": "뉴스테마(AI) | VCP(35점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.29,
-      "details": {
-        "vcp_score": 35.0,
-        "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "⏸ C"
     },
@@ -1016,25 +905,6 @@
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "PLUS 자사주매입고배당주",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 27.5,
-      "reason": "VCP(55점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.28,
-      "details": {
-        "vcp_score": 55.0,
-        "foreign_score": 0.0,
-        "narrative_score": 0.0,
-        "themes": [],
-        "top_headline": ""
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
       "stock": "KODEX 금융고배당TOP10타겟커버드콜",
       "grade": "C",
       "action": "HOLD",
@@ -1054,191 +924,287 @@
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "퀀텀스케이프",
+      "stock": "KODEX 미국나스닥100",
       "grade": "C",
       "action": "HOLD",
-      "score": 26.5,
-      "reason": "뉴스테마(자동차) | VCP(35점)",
+      "score": 27.5,
+      "reason": "VCP(55점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.27,
+      "confidence": 0.28,
       "details": {
-        "vcp_score": 35.0,
+        "vcp_score": 55.0,
         "foreign_score": 0.0,
-        "narrative_score": 30.0,
-        "themes": [
-          "자동차"
-        ],
-        "top_headline": "현대차그룹, 보스턴다이내믹스 지분 100% 확보"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "TRDR 2X ASTS ETF",
+      "stock": "PLUS 자사주매입고배당주",
       "grade": "C",
       "action": "HOLD",
-      "score": 25.0,
-      "reason": "뉴스테마(우주항공) | VCP(35점)",
+      "score": 27.5,
+      "reason": "VCP(55점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.25,
+      "confidence": 0.28,
       "details": {
-        "vcp_score": 35.0,
+        "vcp_score": 55.0,
         "foreign_score": 0.0,
-        "narrative_score": 25.0,
-        "themes": [
-          "우주항공"
-        ],
-        "top_headline": "스페이스X AI \"이용자 데이터 모두 삭제\""
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "ACE 미국AI테크핵심산업액티브",
+      "stock": "TIGER 미국테크TOP10타겟커버드콜",
       "grade": "C",
       "action": "HOLD",
-      "score": 24.5,
-      "reason": "뉴스테마(AI) | VCP(25점)",
+      "score": 27.5,
+      "reason": "VCP(55점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.24,
+      "confidence": 0.28,
       "details": {
-        "vcp_score": 25.0,
+        "vcp_score": 55.0,
         "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "⏸ C"
     },
     {
-      "stock": "KODEX 미국나스닥100데일리커버드콜OTM",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 24.5,
-      "reason": "뉴스테마(AI) | VCP(25점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.24,
-      "details": {
-        "vcp_score": 25.0,
-        "foreign_score": 0.0,
-        "narrative_score": 40.0,
-        "themes": [
-          "AI"
-        ],
-        "top_headline": "농지가 금싸라기땅으로…AI 열풍이 만든 '땅벼락'"
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "TIGER 현대차그룹플러스",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 21.5,
-      "reason": "뉴스테마(자동차) | VCP(25점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.21,
-      "details": {
-        "vcp_score": 25.0,
-        "foreign_score": 0.0,
-        "narrative_score": 30.0,
-        "themes": [
-          "자동차"
-        ],
-        "top_headline": "현대차그룹, 보스턴다이내믹스 지분 100% 확보"
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "AST 스페이스모바일",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 20.0,
-      "reason": "뉴스테마(우주항공) | VCP(25점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.2,
-      "details": {
-        "vcp_score": 25.0,
-        "foreign_score": 0.0,
-        "narrative_score": 25.0,
-        "themes": [
-          "우주항공"
-        ],
-        "top_headline": "스페이스X AI \"이용자 데이터 모두 삭제\""
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "서프 에어 모빌리티",
-      "grade": "C",
-      "action": "HOLD",
-      "score": 20.0,
-      "reason": "뉴스테마(우주항공) | VCP(25점)",
-      "target_price": null,
-      "stop_loss": null,
-      "entry_price": null,
-      "confidence": 0.2,
-      "details": {
-        "vcp_score": 25.0,
-        "foreign_score": 0.0,
-        "narrative_score": 25.0,
-        "themes": [
-          "우주항공"
-        ],
-        "top_headline": "스페이스X AI \"이용자 데이터 모두 삭제\""
-      },
-      "grade_icon": "⏸ C"
-    },
-    {
-      "stock": "앰프리어스 테크놀로지스",
+      "stock": "TT DF 2XIREN ETF",
       "grade": "D",
       "action": "SKIP",
-      "score": 18.5,
-      "reason": "뉴스테마(기타) | VCP(25점)",
+      "score": 17.5,
+      "reason": "VCP(35점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.18,
+      "confidence": 0.17,
       "details": {
-        "vcp_score": 25.0,
+        "vcp_score": 35.0,
         "foreign_score": 0.0,
-        "narrative_score": 20.0,
-        "themes": [
-          "기타"
-        ],
-        "top_headline": "메리츠, 홈플러스에 2000억 수혈…회생계획안도 찬성"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "❌ D"
     },
     {
-      "stock": "실스크",
+      "stock": "RNDHLL INVTN ETF",
       "grade": "D",
       "action": "SKIP",
-      "score": 18.5,
-      "reason": "뉴스테마(기타) | VCP(25점)",
+      "score": 17.5,
+      "reason": "VCP(35점)",
       "target_price": null,
       "stop_loss": null,
       "entry_price": null,
-      "confidence": 0.18,
+      "confidence": 0.17,
       "details": {
-        "vcp_score": 25.0,
+        "vcp_score": 35.0,
         "foreign_score": 0.0,
-        "narrative_score": 20.0,
-        "themes": [
-          "기타"
-        ],
-        "top_headline": "메리츠, 홈플러스에 2000억 수혈…회생계획안도 찬성"
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRDR 2X ASTS ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "KODEX 200타겟위클리커버드콜",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "퀀텀스케이프",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "셀레스티카",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "삼성전자",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRD2XLG APLD ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "RNDHL MEMRY ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "DFC DLY RKLB ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "TRADR 2X LNG ETF",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
+      },
+      "grade_icon": "❌ D"
+    },
+    {
+      "stock": "아이렌",
+      "grade": "D",
+      "action": "SKIP",
+      "score": 17.5,
+      "reason": "VCP(35점)",
+      "target_price": null,
+      "stop_loss": null,
+      "entry_price": null,
+      "confidence": 0.17,
+      "details": {
+        "vcp_score": 35.0,
+        "foreign_score": 0.0,
+        "narrative_score": 0.0,
+        "themes": [],
+        "top_headline": ""
       },
       "grade_icon": "❌ D"
     }

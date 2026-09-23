@@ -1,0 +1,60 @@
+{
+  "_note": "ticker_map.json 종목 기준으로 재구성. narrative_scanner의 Claude 테마 → 종목 매핑.",
+  "AI": [
+    "엔비디아", "KODEX 미국나스닥100", "ACE 미국AI테크핵심산업액티브",
+    "TIGER 미국테크TOP10타겟커버드콜", "ACE 미국빅테크7+데일리타겟커버드콜(합성)",
+    "KODEX 미국나스닥100데일리커버드콜OTM", "TRD2XLG APLD ETF"
+  ],
+  "반도체": [
+    "삼성전자", "엔비디아", "셀레스티카", "RNDHL MEMRY ETF",
+    "TRDR 2X CRDO ETF", "KODEX 미국나스닥100"
+  ],
+  "데이터센터": [
+    "엔비디아", "셀레스티카", "아이렌", "TRDR CLS DLY ETF", "TRD2XLG APLD ETF"
+  ],
+  "우주항공": [
+    "KODEX 미국우주항공", "AST 스페이스모바일", "TRDR 2X ASTS ETF",
+    "DFC DLY RKLB ETF", "서프 에어 모빌리티"
+  ],
+  "방산": [
+    "KODEX 미국우주항공", "DFC DLY RKLB ETF"
+  ],
+  "에너지": [
+    "TRADR 2X LNG ETF", "X-에너지"
+  ],
+  "2차전지": [
+    "퀀텀스케이프"
+  ],
+  "전기차": [
+    "퀀텀스케이프", "TIGER 현대차그룹플러스"
+  ],
+  "자동차": [
+    "TIGER 현대차그룹플러스", "퀀텀스케이프"
+  ],
+  "금융": [
+    "KODEX 금융고배당TOP10타겟위클리커버드콜", "KODEX 금융고배당TOP10타겟커버드콜",
+    "KODEX 미국배당커버드콜액티브", "Schwab 미국 배당주 ETF", "RNDHLL INVTN ETF"
+  ],
+  "배당": [
+    "KODEX 미국배당커버드콜액티브", "Schwab 미국 배당주 ETF",
+    "PLUS 자사주매입고배당주", "KODEX 금융고배당TOP10타겟커버드콜"
+  ],
+  "나스닥": [
+    "KODEX 미국나스닥100", "KODEX 미국나스닥100데일리커버드콜OTM",
+    "엔비디아", "RNDHLL INVTN ETF"
+  ],
+  "S&P500": [
+    "KODEX 미국S&P500", "TIGER 미국S&P500타겟데일리커버드콜",
+    "Schwab 미국 배당주 ETF", "RISE 글로벌자산배분액티브"
+  ],
+  "코스닥": [
+    "KODEX 코스닥150레버리지", "삼성전자"
+  ],
+  "통신": [
+    "AST 스페이스모바일", "TRDR 2X ASTS ETF", "파가야 테크놀로지스"
+  ],
+  "기타": [
+    "RISE 글로벌자산배분액티브", "앰프리어스 테크놀로지스", "BTQ 테크놀로지스",
+    "실스크", "Leverage Shares 2X Long CBRS DLY ETF"
+  ]
+}
